@@ -1,0 +1,303 @@
+﻿Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется откат для сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Восстанавливается исходное состояние журнала событий для источника AssistanceNT.
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется откат для сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Восстанавливается исходное состояние журнала событий для источника AssistanceNT.
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется откат для сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Восстанавливается исходное состояние журнала событий для источника AssistanceNT.
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Попытка останова службы AssistanceNT.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Попытка останова службы AssistanceNT.
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Предупреждение. Источник AssistanceNT не зарегистрирован на локальном компьютере.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.
+Попытка останова службы AssistanceNT.
+Выполняется установка сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Устанавливается служба AssistanceNT...
+Служба AssistanceNT успешно установлена.
+Создается исходный EventLog AssistanceNT в журнале Application...
+Выполняется фиксация сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление сборки 'D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.InstallLog
+   assemblypath = D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\AssistantService\bin\Debug\AssistantService.exe
+Выполняется удаление источника EventLog AssistanceNT.
+Выполняется удаление службы AssistanceNT из системы...
+Служба AssistanceNT успешно удалена из системы.

@@ -1,0 +1,23 @@
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Test lib.exe.config
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Test lib.exe
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Test lib.pdb
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Assistant.dll
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Assistant.pdb
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Assistant.dll.config
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.csprojResolveAssemblyReference.cache
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.csproj.CoreCompileInputs.cache
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.exe
+D:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.pdb
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Test lib.exe.config
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Test lib.exe
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Test lib.pdb
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Assistant.dll
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Oracle.ManagedDataAccess.dll
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Newtonsoft.Json.dll
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Assistant.pdb
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\bin\Release\Assistant.dll.config
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.csprojAssemblyReference.cache
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.csproj.CopyComplete
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.exe
+G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Test lib\obj\Release\Test lib.pdb

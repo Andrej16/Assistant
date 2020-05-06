@@ -1,0 +1,1363 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <CI_ID>1008</CI_ID>
+    <CI_NAME>КИЇВ</CI_NAME>
+    <CI_RG_ID>1508</CI_RG_ID>
+    <CI_RG_NAME>КИЇВ</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>244</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>244</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>8000000000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>80</CI_AREA_CODE>
+    <CI_PREF_CODE>1</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+    <CI_PRIOR>1</CI_PRIOR>
+  </Table>
+  <Table>
+    <CI_ID>1003</CI_ID>
+    <CI_NAME>ІВАНО-ФРАНКІВСЬК</CI_NAME>
+    <CI_RG_ID>1582</CI_RG_ID>
+    <CI_RG_NAME>ІВАНО-ФРАНКІВСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1007</CI_OBL_ID>
+    <CI_OBL_NAME>ІВАНО-ФРАНКІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>81</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>81</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>2610100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>26</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+    <CI_PRIOR>2</CI_PRIOR>
+  </Table>
+  <Table>
+    <CI_ID>1018</CI_ID>
+    <CI_NAME>ЛУЦЬК</CI_NAME>
+    <CI_RG_ID>1540</CI_RG_ID>
+    <CI_RG_NAME>ВОЛИНСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1001</CI_OBL_ID>
+    <CI_OBL_NAME>ВОЛИНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>22</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>22</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0710100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>7</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+    <CI_PRIOR>2</CI_PRIOR>
+  </Table>
+  <Table>
+    <CI_ID>1028</CI_ID>
+    <CI_NAME>ПОЛТАВА</CI_NAME>
+    <CI_RG_ID>1499</CI_RG_ID>
+    <CI_RG_NAME>ПОЛТАВСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1015</CI_OBL_ID>
+    <CI_OBL_NAME>ПОЛТАВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>163</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>163</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5310100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>53</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+    <CI_PRIOR>2</CI_PRIOR>
+  </Table>
+  <Table>
+    <CI_ID>1050</CI_ID>
+    <CI_NAME>ХАРКІВ</CI_NAME>
+    <CI_RG_ID>1513</CI_RG_ID>
+    <CI_RG_NAME>ХАРКІВСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1020</CI_OBL_ID>
+    <CI_OBL_NAME>ХАРКІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>193</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>193</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>6310100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>63</CI_AREA_CODE>
+    <CI_PREF_CODE>2</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+    <CI_PRIOR>2</CI_PRIOR>
+  </Table>
+  <Table>
+    <CI_ID>1000</CI_ID>
+    <CI_NAME>АЛУПКА</CI_NAME>
+    <CI_RG_ID>1045</CI_RG_ID>
+    <CI_RG_NAME>ЛЕНІНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>0111970200</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1059</CI_ID>
+    <CI_NAME>АМВРОСІЇВКА</CI_NAME>
+    <CI_RG_ID>1119</CI_RG_ID>
+    <CI_RG_NAME>АМВРОСІЇВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1003</CI_OBL_ID>
+    <CI_OBL_NAME>ДОНЕЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>1420610100</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1060</CI_ID>
+    <CI_NAME>АПОСТОЛОВЕ</CI_NAME>
+    <CI_RG_ID>1096</CI_RG_ID>
+    <CI_RG_NAME>АПОСТОЛІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1002</CI_OBL_ID>
+    <CI_OBL_NAME>ДНІПРОПЕТРОВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>35</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>35</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1220310100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>12</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1061</CI_ID>
+    <CI_NAME>АРТЕМІВСЬК</CI_NAME>
+    <CI_RG_ID>1235</CI_RG_ID>
+    <CI_RG_NAME>ПЕРЕВАЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>4423610300</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1084</CI_ID>
+    <CI_NAME>БАРИШІВКА</CI_NAME>
+    <CI_RG_ID>1038</CI_RG_ID>
+    <CI_RG_NAME>БАРИШІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>94</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>94</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3220255100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1062</CI_ID>
+    <CI_NAME>БАХЧИСАРАЙ</CI_NAME>
+    <CI_RG_ID>1039</CI_RG_ID>
+    <CI_RG_NAME>БАХЧИСАРАЙСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_MTSBU_ID>262</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>3364</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0120410100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>0</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1064</CI_ID>
+    <CI_NAME>БЕРДЯНСЬК</CI_NAME>
+    <CI_RG_ID>1172</CI_RG_ID>
+    <CI_RG_NAME>БЕРДЯНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1006</CI_OBL_ID>
+    <CI_OBL_NAME>ЗАПОРІЗЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>75</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>75</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>2310400000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>23</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1096</CI_ID>
+    <CI_NAME>БОБРИНЕЦЬ</CI_NAME>
+    <CI_RG_ID>1207</CI_RG_ID>
+    <CI_RG_NAME>БОБРИНЕЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>108</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>108</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3520810100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1065</CI_ID>
+    <CI_NAME>БОРИСПІЛЬ</CI_NAME>
+    <CI_RG_ID>1003</CI_RG_ID>
+    <CI_RG_NAME>БОРИСПІЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>87</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>87</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3210500000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>6</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1067</CI_ID>
+    <CI_NAME>БРОВАРИ</CI_NAME>
+    <CI_RG_ID>1005</CI_RG_ID>
+    <CI_RG_NAME>БРОВАРСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>88</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>88</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3210600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>6</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1103</CI_ID>
+    <CI_NAME>БРЯНКА</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>116</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>116</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4410500000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1069</CI_ID>
+    <CI_NAME>ВИШГОРОД</CI_NAME>
+    <CI_RG_ID>1008</CI_RG_ID>
+    <CI_RG_NAME>ВИШГОРОДСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>95</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>95</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3221810100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>6</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1102</CI_ID>
+    <CI_NAME>ВІЛЬШАНКА</CI_NAME>
+    <CI_RG_ID>1219</CI_RG_ID>
+    <CI_RG_NAME>ВІЛЬШАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>114</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>114</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3524355100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1068</CI_ID>
+    <CI_NAME>ВІННИЦЯ</CI_NAME>
+    <CI_RG_ID>1491</CI_RG_ID>
+    <CI_RG_NAME>ВІННИЦЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1000</CI_OBL_ID>
+    <CI_OBL_NAME>ВІННИЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>9</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>9</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0510100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>5</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1125</CI_ID>
+    <CI_NAME>ВОЗНЕСЕНСЬК</CI_NAME>
+    <CI_RG_ID>1269</CI_RG_ID>
+    <CI_RG_NAME>ВОЗНЕСЕНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1013</CI_OBL_ID>
+    <CI_OBL_NAME>МИКОЛАЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>144</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>144</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4810200000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>48</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1097</CI_ID>
+    <CI_NAME>ГАЙВОРОН</CI_NAME>
+    <CI_RG_ID>1208</CI_RG_ID>
+    <CI_RG_NAME>ГАЙВОРОНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>109</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>109</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3521110100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1070</CI_ID>
+    <CI_NAME>ГЕНІЧЕСЬК</CI_NAME>
+    <CI_RG_ID>1409</CI_RG_ID>
+    <CI_RG_NAME>ГЕНІЧЕСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1021</CI_OBL_ID>
+    <CI_OBL_NAME>ХЕРСОНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>209</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>209</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>6522110100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>65</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1071</CI_ID>
+    <CI_NAME>ГОРЛІВКА</CI_NAME>
+    <CI_RG_ID>1589</CI_RG_ID>
+    <CI_RG_NAME>ДОНЕЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1003</CI_OBL_ID>
+    <CI_OBL_NAME>ДОНЕЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>39</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>39</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1410600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>14</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1072</CI_ID>
+    <CI_NAME>ДНІПРОДЗЕРЖИНСЬК</CI_NAME>
+    <CI_RG_ID>1099</CI_RG_ID>
+    <CI_RG_NAME>ДНІПРОПЕТРОВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1002</CI_OBL_ID>
+    <CI_OBL_NAME>ДНІПРОПЕТРОВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>29</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>29</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1210400000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>12</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1098</CI_ID>
+    <CI_NAME>ДОЛИНСЬКА</CI_NAME>
+    <CI_RG_ID>1211</CI_RG_ID>
+    <CI_RG_NAME>ДОЛИНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>110</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>110</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3521910100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1127</CI_ID>
+    <CI_NAME>ДОМАНІВКА</CI_NAME>
+    <CI_RG_ID>1271</CI_RG_ID>
+    <CI_RG_NAME>ДОМАНІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1013</CI_OBL_ID>
+    <CI_OBL_NAME>МИКОЛАЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>147</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>147</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4822755100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>48</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1074</CI_ID>
+    <CI_NAME>ДОНЕЦЬК</CI_NAME>
+    <CI_RG_ID>1589</CI_RG_ID>
+    <CI_RG_NAME>ДОНЕЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1003</CI_OBL_ID>
+    <CI_OBL_NAME>ДОНЕЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>37</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>37</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1410100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>14</CI_AREA_CODE>
+    <CI_PREF_CODE>3</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1116</CI_ID>
+    <CI_NAME>ДРОГОБИЧ</CI_NAME>
+    <CI_RG_ID>1510</CI_RG_ID>
+    <CI_RG_NAME>ДРОГОБИЧ</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>133</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>133</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4610600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1077</CI_ID>
+    <CI_NAME>ЄНАКІЄВЕ</CI_NAME>
+    <CI_RG_ID>1589</CI_RG_ID>
+    <CI_RG_NAME>ДОНЕЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1003</CI_OBL_ID>
+    <CI_OBL_NAME>ДОНЕЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>41</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>41</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1412000000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>14</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1044</CI_ID>
+    <CI_NAME>ЖМЕРИНКА</CI_NAME>
+    <CI_RG_ID>1559</CI_RG_ID>
+    <CI_RG_NAME>ЖМЕРИНКА</CI_RG_NAME>
+    <CI_OBL_ID>1000</CI_OBL_ID>
+    <CI_OBL_NAME>ВІННИЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>10</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>10</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0510300000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>5</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1122</CI_ID>
+    <CI_NAME>ЖОВКВА</CI_NAME>
+    <CI_RG_ID>1251</CI_RG_ID>
+    <CI_RG_NAME>ЖОВКІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>140</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>140</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4622710100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1002</CI_ID>
+    <CI_NAME>ЗВЕНИГОРОДКА</CI_NAME>
+    <CI_RG_ID>1442</CI_RG_ID>
+    <CI_RG_NAME>ЗВЕНИГОРОДСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1023</CI_OBL_ID>
+    <CI_OBL_NAME>ЧЕРКАСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>229</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>229</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>7121210100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>71</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1093</CI_ID>
+    <CI_NAME>ЗНАМ'ЯНКА</CI_NAME>
+    <CI_RG_ID>1212</CI_RG_ID>
+    <CI_RG_NAME>ЗНАМ'ЯНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>105</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>105</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3510600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1120</CI_ID>
+    <CI_NAME>ЗОЛОЧІВ</CI_NAME>
+    <CI_RG_ID>1248</CI_RG_ID>
+    <CI_RG_NAME>ЗОЛОЧІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>138</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>138</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4621810100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1085</CI_ID>
+    <CI_NAME>ІВАНКІВ</CI_NAME>
+    <CI_RG_ID>1010</CI_RG_ID>
+    <CI_RG_NAME>ІВАНКІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>96</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>96</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3222055100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1005</CI_ID>
+    <CI_NAME>ІЗМАЇЛ</CI_NAME>
+    <CI_RG_ID>1031</CI_RG_ID>
+    <CI_RG_NAME>ІЗМАЇЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1014</CI_OBL_ID>
+    <CI_OBL_NAME>ОДЕСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>154</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>154</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5110600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>51</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1004</CI_ID>
+    <CI_NAME>ІРПІНЬ</CI_NAME>
+    <CI_RG_ID>1518</CI_RG_ID>
+    <CI_RG_NAME>ІРПІНЬ</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>90</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>90</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3210900000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>6</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1086</CI_ID>
+    <CI_NAME>КАГАРЛИК</CI_NAME>
+    <CI_RG_ID>1011</CI_RG_ID>
+    <CI_RG_NAME>КАГАРЛИЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>97</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>97</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3222210100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1121</CI_ID>
+    <CI_NAME>КАМ`ЯНКА-БУЗЬКА</CI_NAME>
+    <CI_RG_ID>1249</CI_RG_ID>
+    <CI_RG_NAME>КАМ'ЯНКА-БУЗЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>139</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>139</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4622110100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1006</CI_ID>
+    <CI_NAME>КАХОВКА</CI_NAME>
+    <CI_RG_ID>1414</CI_RG_ID>
+    <CI_RG_NAME>КАХОВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1021</CI_OBL_ID>
+    <CI_OBL_NAME>ХЕРСОНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>6510400000</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1104</CI_ID>
+    <CI_NAME>КІРОВСЬК</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>117</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>117</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4411000000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1010</CI_ID>
+    <CI_NAME>КОРЕЦЬ</CI_NAME>
+    <CI_RG_ID>1337</CI_RG_ID>
+    <CI_RG_NAME>КОРЕЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1016</CI_OBL_ID>
+    <CI_OBL_NAME>РІВНЕНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>5623010100</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1012</CI_ID>
+    <CI_NAME>КРАСНИЙ ЛУЧ</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>120</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>120</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4411600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1106</CI_ID>
+    <CI_NAME>КРАСНОДОН</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>119</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>119</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4411400000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1013</CI_ID>
+    <CI_NAME>КРЕМЕНЧУК</CI_NAME>
+    <CI_RG_ID>1026</CI_RG_ID>
+    <CI_RG_NAME>КРЕМЕНЧУЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1015</CI_OBL_ID>
+    <CI_OBL_NAME>ПОЛТАВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>165</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>165</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5310400000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>53</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1014</CI_ID>
+    <CI_NAME>КРИВИЙ РІГ</CI_NAME>
+    <CI_RG_ID>1515</CI_RG_ID>
+    <CI_RG_NAME>КРИВИЙ РІГ</CI_RG_NAME>
+    <CI_OBL_ID>1002</CI_OBL_ID>
+    <CI_OBL_NAME>ДНІПРОПЕТРОВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>31</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>31</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1211000000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>12</CI_AREA_CODE>
+    <CI_PREF_CODE>3</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1016</CI_ID>
+    <CI_NAME>ЛИСИЧАНСЬК</CI_NAME>
+    <CI_RG_ID>1534</CI_RG_ID>
+    <CI_RG_NAME>ЛИСИЧАНСЬК</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>121</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>121</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4411800000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1045</CI_ID>
+    <CI_NAME>ЛУБНИ</CI_NAME>
+    <CI_RG_ID>1316</CI_RG_ID>
+    <CI_RG_NAME>ЛУБЕНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1015</CI_OBL_ID>
+    <CI_OBL_NAME>ПОЛТАВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>166</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>166</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5310700000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>53</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1017</CI_ID>
+    <CI_NAME>ЛУГАНСЬК</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>115</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>115</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4410100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1112</CI_ID>
+    <CI_NAME>ЛУТУГИНЕ</CI_NAME>
+    <CI_RG_ID>1230</CI_RG_ID>
+    <CI_RG_NAME>ЛУТУГИНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>128</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>128</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4422210100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1019</CI_ID>
+    <CI_NAME>ЛЬВІВ</CI_NAME>
+    <CI_RG_ID>1570</CI_RG_ID>
+    <CI_RG_NAME>ЛЬВІВСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>132</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>132</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4610100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>3</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1088</CI_ID>
+    <CI_NAME>МАКАРІВ</CI_NAME>
+    <CI_RG_ID>1013</CI_RG_ID>
+    <CI_RG_NAME>МАКАРІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>99</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>99</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3222755100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1020</CI_ID>
+    <CI_NAME>МАРІУПОЛЬ</CI_NAME>
+    <CI_RG_ID>1578</CI_RG_ID>
+    <CI_RG_NAME>МАРІУПОЛЬ</CI_RG_NAME>
+    <CI_OBL_ID>1003</CI_OBL_ID>
+    <CI_OBL_NAME>ДОНЕЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>42</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>42</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1412300000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>14</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1113</CI_ID>
+    <CI_NAME>МАРКІВКА</CI_NAME>
+    <CI_RG_ID>1231</CI_RG_ID>
+    <CI_RG_NAME>МАРКІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>129</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>129</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4422555100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1021</CI_ID>
+    <CI_NAME>МИКОЛАЇВ</CI_NAME>
+    <CI_RG_ID>1522</CI_RG_ID>
+    <CI_RG_NAME>МИКОЛАЇВСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1013</CI_OBL_ID>
+    <CI_OBL_NAME>МИКОЛАЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>143</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>143</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4810100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>48</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1089</CI_ID>
+    <CI_NAME>МИРОНІВКА</CI_NAME>
+    <CI_RG_ID>1014</CI_RG_ID>
+    <CI_RG_NAME>МИРОНІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>100</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>100</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3222910100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1128</CI_ID>
+    <CI_NAME>НЕЧАЯНЕ</CI_NAME>
+    <CI_RG_ID>1276</CI_RG_ID>
+    <CI_RG_NAME>МИКОЛАЇВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1013</CI_OBL_ID>
+    <CI_OBL_NAME>МИКОЛАЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>148</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>148</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4824282701</CI_KOATUU_CODE>
+    <CI_AREA_CODE>48</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1022</CI_ID>
+    <CI_NAME>НІКОПОЛЬ</CI_NAME>
+    <CI_RG_ID>1104</CI_RG_ID>
+    <CI_RG_NAME>НІКОПОЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1002</CI_OBL_ID>
+    <CI_OBL_NAME>ДНІПРОПЕТРОВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>32</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>32</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1211600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>12</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1100</CI_ID>
+    <CI_NAME>НОВГОРОДКА</CI_NAME>
+    <CI_RG_ID>1216</CI_RG_ID>
+    <CI_RG_NAME>НОВГОРОДКІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>112</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>112</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3523455100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1101</CI_ID>
+    <CI_NAME>НОВОУКРАЇНКА</CI_NAME>
+    <CI_RG_ID>1218</CI_RG_ID>
+    <CI_RG_NAME>НОВОУКРАЇНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>113</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>113</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3524010100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1124</CI_ID>
+    <CI_NAME>НОВОЯВОРІВСЬК</CI_NAME>
+    <CI_RG_ID>1262</CI_RG_ID>
+    <CI_RG_NAME>ЯВОРІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>142</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>142</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4625810500</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1024</CI_ID>
+    <CI_NAME>ОДЕСА</CI_NAME>
+    <CI_RG_ID>1497</CI_RG_ID>
+    <CI_RG_NAME>ОДЕСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1014</CI_OBL_ID>
+    <CI_OBL_NAME>ОДЕСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>152</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>152</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5110100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>51</CI_AREA_CODE>
+    <CI_PREF_CODE>2</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1092</CI_ID>
+    <CI_NAME>ОЛЕКСАНДРІЯ</CI_NAME>
+    <CI_RG_ID>1205</CI_RG_ID>
+    <CI_RG_NAME>ОЛЕКСАНДРІЙСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>104</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>104</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3510300000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1025</CI_ID>
+    <CI_NAME>ПАВЛОГРАД</CI_NAME>
+    <CI_RG_ID>1106</CI_RG_ID>
+    <CI_RG_NAME>ПАВЛОГРАДСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1002</CI_OBL_ID>
+    <CI_OBL_NAME>ДНІПРОПЕТРОВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>34</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>34</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>1212400000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>12</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1026</CI_ID>
+    <CI_NAME>ПЕРВОМАЙСЬК</CI_NAME>
+    <CI_RG_ID>1280</CI_RG_ID>
+    <CI_RG_NAME>ПЕРВОМАЙСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1013</CI_OBL_ID>
+    <CI_OBL_NAME>МИКОЛАЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>145</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>145</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4810400000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>48</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1029</CI_ID>
+    <CI_NAME>ПРИЛУКИ</CI_NAME>
+    <CI_RG_ID>1483</CI_RG_ID>
+    <CI_RG_NAME>ПРИЛУЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1025</CI_OBL_ID>
+    <CI_OBL_NAME>ЧЕРНІГІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>240</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>240</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>7410700000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>74</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1030</CI_ID>
+    <CI_NAME>РІВНЕ</CI_NAME>
+    <CI_RG_ID>1556</CI_RG_ID>
+    <CI_RG_NAME>РІВНЕНСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1016</CI_OBL_ID>
+    <CI_OBL_NAME>РІВНЕНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>174</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>174</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5610100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>56</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1107</CI_ID>
+    <CI_NAME>РОВЕНЬКИ</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>123</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>123</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4412300000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1031</CI_ID>
+    <CI_NAME>РОМНИ</CI_NAME>
+    <CI_RG_ID>1357</CI_RG_ID>
+    <CI_RG_NAME>РОМЕНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1018</CI_OBL_ID>
+    <CI_OBL_NAME>СУМСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>185</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>185</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5910700000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>59</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1108</CI_ID>
+    <CI_NAME>РУБІЖНЕ</CI_NAME>
+    <CI_RG_ID>1555</CI_RG_ID>
+    <CI_RG_NAME>РУБІЖНЕ</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>124</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>124</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4412500000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1117</CI_ID>
+    <CI_NAME>САМБІР</CI_NAME>
+    <CI_RG_ID>1256</CI_RG_ID>
+    <CI_RG_NAME>САМБІРСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>134</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>134</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4610900000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1114</CI_ID>
+    <CI_NAME>СВАТОВЕ</CI_NAME>
+    <CI_RG_ID>1237</CI_RG_ID>
+    <CI_RG_NAME>СВАТІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>130</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>130</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4424010100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1109</CI_ID>
+    <CI_NAME>СВЕРДЛОВСЬК</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>125</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>125</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4412700000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1094</CI_ID>
+    <CI_NAME>СВІТЛОВОДСЬК</CI_NAME>
+    <CI_RG_ID>1222</CI_RG_ID>
+    <CI_RG_NAME>СВІТЛОВОДСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1009</CI_OBL_ID>
+    <CI_OBL_NAME>КІРОВОГРАДСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>106</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>106</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3510900000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1033</CI_ID>
+    <CI_NAME>СЕВАСТОПОЛЬ</CI_NAME>
+    <CI_RG_ID>1050</CI_RG_ID>
+    <CI_RG_NAME>СІМФЕРОПОЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_MTSBU_ID>245</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>245</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>8500000000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>85</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1034</CI_ID>
+    <CI_NAME>СІМФЕРОПОЛЬ</CI_NAME>
+    <CI_RG_ID>1050</CI_RG_ID>
+    <CI_RG_NAME>СІМФЕРОПОЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_MTSBU_ID>1</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>1</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0110100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>1</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1083</CI_ID>
+    <CI_NAME>СЛАВУТИЧ</CI_NAME>
+    <CI_RG_ID>1554</CI_RG_ID>
+    <CI_RG_NAME>СЛАВУТИЧ</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>93</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>93</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3211500000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1036</CI_ID>
+    <CI_NAME>СМІЛА</CI_NAME>
+    <CI_RG_ID>1451</CI_RG_ID>
+    <CI_RG_NAME>СМІЛЯНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1023</CI_OBL_ID>
+    <CI_OBL_NAME>ЧЕРКАСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>227</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>227</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>7110500000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>71</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1091</CI_ID>
+    <CI_NAME>СТАВИЩЕ</CI_NAME>
+    <CI_RG_ID>1020</CI_RG_ID>
+    <CI_RG_NAME>СТАВИЩЕНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>102</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>102</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3224255100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1115</CI_ID>
+    <CI_NAME>СТАРОБІЛЬСЬК</CI_NAME>
+    <CI_RG_ID>1241</CI_RG_ID>
+    <CI_RG_NAME>СТАРОБІЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>131</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>131</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4425110100</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1111</CI_ID>
+    <CI_NAME>СТАХАНОВ</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>127</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>127</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4413100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>44</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1037</CI_ID>
+    <CI_NAME>СТРИЙ</CI_NAME>
+    <CI_RG_ID>1260</CI_RG_ID>
+    <CI_RG_NAME>СТРИЙСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>135</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>135</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4611200000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1038</CI_ID>
+    <CI_NAME>СУДАК</CI_NAME>
+    <CI_RG_ID>1050</CI_RG_ID>
+    <CI_RG_NAME>СІМФЕРОПОЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>0111700000</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1039</CI_ID>
+    <CI_NAME>СУМИ</CI_NAME>
+    <CI_RG_ID>1557</CI_RG_ID>
+    <CI_RG_NAME>СУМСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1018</CI_OBL_ID>
+    <CI_OBL_NAME>СУМСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>180</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>180</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>5910100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>59</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1040</CI_ID>
+    <CI_NAME>ТЕРНОПІЛЬ</CI_NAME>
+    <CI_RG_ID>1525</CI_RG_ID>
+    <CI_RG_NAME>ТЕРНОПІЛЬСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1019</CI_OBL_ID>
+    <CI_OBL_NAME>ТЕРНОПІЛЬСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>188</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>188</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>6110100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>61</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1041</CI_ID>
+    <CI_NAME>ТРОСТЯНЕЦЬ</CI_NAME>
+    <CI_RG_ID>1072</CI_RG_ID>
+    <CI_RG_NAME>ТРОСТЯНЕЦЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1000</CI_OBL_ID>
+    <CI_OBL_NAME>ВІННИЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>0524155100</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1042</CI_ID>
+    <CI_NAME>ТРУСКАВЕЦЬ</CI_NAME>
+    <CI_RG_ID>1571</CI_RG_ID>
+    <CI_RG_NAME>ТРУСКАВЕЦЬ</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>4611500000</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1043</CI_ID>
+    <CI_NAME>УЖГОРОД</CI_NAME>
+    <CI_RG_ID>1516</CI_RG_ID>
+    <CI_RG_NAME>ЗАКАРПАТСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1005</CI_OBL_ID>
+    <CI_OBL_NAME>ЗАКАРПАТСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>64</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>64</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>2110100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>21</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1095</CI_ID>
+    <CI_NAME>УЛЬЯНІВКА</CI_NAME>
+    <CI_RG_ID>1588</CI_RG_ID>
+    <CI_RG_NAME>ЛУГАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1011</CI_OBL_ID>
+    <CI_OBL_NAME>ЛУГАНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>107</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>107</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4412391005</CI_KOATUU_CODE>
+    <CI_AREA_CODE>35</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1046</CI_ID>
+    <CI_NAME>УМАНЬ</CI_NAME>
+    <CI_RG_ID>1452</CI_RG_ID>
+    <CI_RG_NAME>УМАНСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1023</CI_OBL_ID>
+    <CI_OBL_NAME>ЧЕРКАСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>228</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>228</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>7110800000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>71</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1047</CI_ID>
+    <CI_NAME>ФАСТІВ</CI_NAME>
+    <CI_RG_ID>1023</CI_RG_ID>
+    <CI_RG_NAME>ФАСТІВСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1008</CI_OBL_ID>
+    <CI_OBL_NAME>КИЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>92</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>92</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>3211200000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>32</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1048</CI_ID>
+    <CI_NAME>ФЕОДОСІЯ</CI_NAME>
+    <CI_RG_ID>1050</CI_RG_ID>
+    <CI_RG_NAME>СІМФЕРОПОЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_MTSBU_ID>6</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>6</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0111600000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>1</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1051</CI_ID>
+    <CI_NAME>ХЕРСОН</CI_NAME>
+    <CI_RG_ID>1514</CI_RG_ID>
+    <CI_RG_NAME>ХЕРСОНСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1021</CI_OBL_ID>
+    <CI_OBL_NAME>ХЕРСОНСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>206</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>206</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>6510100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>65</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1052</CI_ID>
+    <CI_NAME>ХМЕЛЬНИЦЬКИЙ</CI_NAME>
+    <CI_RG_ID>1526</CI_RG_ID>
+    <CI_RG_NAME>ХМЕЛЬНИЦЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1022</CI_OBL_ID>
+    <CI_OBL_NAME>ХМЕЛЬНИЦЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>215</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>215</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>6810100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>68</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1118</CI_ID>
+    <CI_NAME>ЧЕРВОНОГРАД</CI_NAME>
+    <CI_RG_ID>1520</CI_RG_ID>
+    <CI_RG_NAME>ЧЕРВОНОГРАД</CI_RG_NAME>
+    <CI_OBL_ID>1012</CI_OBL_ID>
+    <CI_OBL_NAME>ЛЬВІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>136</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>136</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4611800000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>46</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1053</CI_ID>
+    <CI_NAME>ЧЕРКАСИ</CI_NAME>
+    <CI_RG_ID>1527</CI_RG_ID>
+    <CI_RG_NAME>ЧЕРКАСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1023</CI_OBL_ID>
+    <CI_OBL_NAME>ЧЕРКАСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>224</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>224</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>7110100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>71</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1054</CI_ID>
+    <CI_NAME>ЧЕРНІГІВ</CI_NAME>
+    <CI_RG_ID>1539</CI_RG_ID>
+    <CI_RG_NAME>ЧЕРНІГІВСЬКА</CI_RG_NAME>
+    <CI_OBL_ID>1025</CI_OBL_ID>
+    <CI_OBL_NAME>ЧЕРНІГІВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>238</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>238</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>7410100000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>74</CI_AREA_CODE>
+    <CI_PREF_CODE>4</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1056</CI_ID>
+    <CI_NAME>ЧОРНОМОРСЬКЕ</CI_NAME>
+    <CI_RG_ID>1052</CI_RG_ID>
+    <CI_RG_NAME>ЧОРНОМОРСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_KOATUU_CODE>0125655100</CI_KOATUU_CODE>
+  </Table>
+  <Table>
+    <CI_ID>1126</CI_ID>
+    <CI_NAME>ЮЖНОУКРАЇНСЬК</CI_NAME>
+    <CI_RG_ID>1495</CI_RG_ID>
+    <CI_RG_NAME>ЮЖНОУКРАЇНСЬК</CI_RG_NAME>
+    <CI_OBL_ID>1013</CI_OBL_ID>
+    <CI_OBL_NAME>МИКОЛАЇВСЬКА ОБЛАСТЬ</CI_OBL_NAME>
+    <CI_MTSBU_ID>146</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>146</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>4810800000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>48</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+  <Table>
+    <CI_ID>1057</CI_ID>
+    <CI_NAME>ЯЛТА</CI_NAME>
+    <CI_RG_ID>1050</CI_RG_ID>
+    <CI_RG_NAME>СІМФЕРОПОЛЬСЬКИЙ РАЙОН</CI_RG_NAME>
+    <CI_OBL_ID>1010</CI_OBL_ID>
+    <CI_OBL_NAME>АВТОНОМНА РЕСПУБЛІКА КРИМ</CI_OBL_NAME>
+    <CI_MTSBU_ID>7</CI_MTSBU_ID>
+    <CI_MTSBU_CODE>7</CI_MTSBU_CODE>
+    <CI_KOATUU_CODE>0111900000</CI_KOATUU_CODE>
+    <CI_AREA_CODE>1</CI_AREA_CODE>
+    <CI_PREF_CODE>5</CI_PREF_CODE>
+    <CI_RATE>0</CI_RATE>
+  </Table>
+</NewDataSet>
