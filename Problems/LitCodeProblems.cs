@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Problems
 {
@@ -20,6 +22,20 @@ namespace Problems
             }
             arr[n - 1] += total * -1;
             return arr;
+        }
+        public static string[] GetCorrectPhones(string file)
+        {
+            string[] phones = new string[100];
+            int count = 0;
+            string pattern = @"^(\(\d{3}\)\s\d{3}-\d{4})|(\d{3}-\d{3}-\d{4})$", line;
+            StreamReader sr = new StreamReader(file);
+            while((line = sr.ReadLine()) != null)
+            {
+                if(Regex.IsMatch(line.Trim(), pattern))
+                    phones[count++] = line;
+
+            }
+            return phones;
         }
     }
 }

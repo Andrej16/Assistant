@@ -47,3 +47,16 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\T
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb

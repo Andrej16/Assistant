@@ -17,3 +17,10 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\A
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.ResolveComReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
