@@ -157,7 +157,7 @@ namespace Assistant
         /// </summary>
         public static bool CheckNameMembNatMinority(string source)
         {
-            string pattern = @"^([А-ЯІ][а-яі]*)((\s[А-ЯІ][а-яі]*)$|$)";
+            string pattern = @"^([А-ЯІЇЄ][а-яіїє']*)((\s[А-ЯІЇЄ][а-яіїє']*)$|$)";
             if (string.IsNullOrEmpty(source))
                 return false;
 
@@ -168,7 +168,7 @@ namespace Assistant
         /// </summary>
         public static bool CheckFullName(string source)
         {
-            string pattern = @"^([А-ЯІ][а-яі]*)\s([А-ЯІ][а-яі]*)\s([А-ЯІ][а-яі]*)$";
+            string pattern = @"^([А-ЯІЇЄ][а-яіїє']*)\s([А-ЯІЇЄ][а-яіїє']*)\s([А-ЯІЇЄ][а-яіїє']*)$";
             if (string.IsNullOrEmpty(source))
                 return false;
 

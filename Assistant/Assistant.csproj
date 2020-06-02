@@ -81,8 +81,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Resources.cs" />
-    <Compile Include="RestClient.cs" />
     <Compile Include="RegExUtil.cs" />
+    <Compile Include="RestClient.cs" />
     <Compile Include="TimerCallBack.cs" />
     <Compile Include="UnderGroundWaiter.cs" />
     <Compile Include="UnderGroundWorker.cs" />

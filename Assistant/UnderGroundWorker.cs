@@ -41,7 +41,6 @@ namespace Assistant
         private Func<object> loadDelegate;
         private object dataSource;
         readonly object _locker = new object();
-        bool _go;
         public UnderGroundWorker(Form f, Func<object> loadAction, Action<object> setAction)
         {
             form = f;

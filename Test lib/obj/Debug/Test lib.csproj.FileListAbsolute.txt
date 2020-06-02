@@ -34,19 +34,6 @@ G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\Test lib\obj\Deb
 G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
 G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe.config
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.pdb
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Oracle.ManagedDataAccess.dll
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Newtonsoft.Json.dll
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.pdb
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll.config
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csprojAssemblyReference.cache
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe.config
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.pdb
@@ -60,3 +47,20 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\T
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csprojAssemblyReference.cache
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CoreCompileInputs.cache
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe.config
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Oracle.ManagedDataAccess.dll
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.dll
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Newtonsoft.Json.dll
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll.config
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.pdb

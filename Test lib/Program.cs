@@ -1,4 +1,5 @@
 ﻿using Assistant.Collections;
+using InvalidPassports;
 using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
@@ -17,10 +18,10 @@ namespace Assistant
 
         static void Main(string[] args)
         {
-            //BaseFactory dl = new BaseFactory(DbType.Test);
+            //BaseFactory dl = new BaseFactory(DbType.Test); 
             //int res = 0;
             //BaseFactoryUniversalFunc();
-            BaseFactoryTest();
+            //BaseFactoryTest();
             //TestImap();
             //res = TestExecute(dl);
 
@@ -43,8 +44,15 @@ namespace Assistant
 
             //Test Binary tree
             //TestBinaryTree();
+            FileUploaderTest();
 
             Console.ReadKey();
+        }
+
+        private static void FileUploaderTest()
+        {
+            FileStore store = new FileStore(new WebFileDownLoader(), new FileSaver());
+            store.Process();
         }
 
         private static void TestBinaryTree()

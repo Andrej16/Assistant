@@ -80,10 +80,8 @@ namespace Assistant
                 commands.TryGetValue(prog, out command);
             else
             {
-                command = new OracleCommand(prog, connection)
-                {
-                    CommandType = CommandType.StoredProcedure
-                };
+                command = new OracleCommand(prog, connection);
+                command.CommandType = CommandType.StoredProcedure;
                 
                 OracleCommandBuilder.DeriveParameters(command);
                 //Add to dictionary for reuse

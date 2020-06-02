@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assistant
+namespace InvalidPassports
 {
     /// <summary>
     /// Class for sending HTTP requests and receiving HTTP responses from a resource identified by a URI.
