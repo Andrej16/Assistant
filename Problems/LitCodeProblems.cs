@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Problems.RemoveZeroSumSublists;
+using System;
 using System.IO;
 using System.Text.RegularExpressions;
 
@@ -36,6 +37,39 @@ namespace Problems
 
             }
             return phones;
+        }
+        public static ListNode RemoveZeroSumSublists(ListNode head)
+        {
+            ListNode headLocal = head;
+            ListNode prevNode = head;
+            ListNode curr = head.Next;
+            ListNode beforeCortege = null;
+
+            for (int pass = 0; curr != null; )
+            {
+                int res = prevNode.val + curr.val;
+                if (res == 0)
+                {
+                    if (pass == 0) //first node delete
+                    {
+                        headLocal = curr.Next;
+                    }
+                    else
+                    {
+                        beforeCortege.Next = curr.Next;
+                    }
+                    pass = 0;
+                    curr = headLocal;
+                }
+                else
+                {
+                    beforeCortege = prevNode;
+                    pass++;
+                    prevNode = curr;
+                    curr = curr.Next;
+                }
+            }
+            return headLocal;
         }
     }
 }
