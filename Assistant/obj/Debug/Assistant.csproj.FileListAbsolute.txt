@@ -42,9 +42,9 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Debug\
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Debug\Assistant.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Debug\Newtonsoft.Json.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Debug\Oracle.ManagedDataAccess.dll
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csprojAssemblyReference.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csproj.ResolveComReference.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.pdb
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csprojAssemblyReference.cache

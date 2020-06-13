@@ -62,7 +62,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebInteraction\InvalidPassports.csproj">
+    <ProjectReference Include="..\WebServices\InvalidPassports.csproj">
       <Project>{32bc31fc-6e8d-456f-820d-8d09aacb3473}</Project>
       <Name>InvalidPassports</Name>
     </ProjectReference>

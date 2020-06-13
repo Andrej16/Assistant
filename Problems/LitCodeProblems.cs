@@ -71,5 +71,21 @@ namespace Problems
             }
             return headLocal;
         }
+        /// <summary>
+        /// 137. Single Number II
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/single-number-ii/"/>
+        public static int SingleNumber(int[] nums)
+        {
+            int[] indHolder = new int[1000];
+
+            for(int i = 0; i < nums.Length; i++)
+                indHolder[nums[i]]++;
+
+            for (int c = 0; c < indHolder.Length; c++)
+                if (indHolder[c] == 1)
+                    return c;
+            return 0;
+        }
     }
 }

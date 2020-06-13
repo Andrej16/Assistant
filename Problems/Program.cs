@@ -9,8 +9,16 @@ namespace Problems
         {
             //FindNUniqueIntegers();
             //FinePhones();
-            RemoveZeroSumSublists();
+            //RemoveZeroSumSublists();
+            SingleNumber();
             Console.ReadKey();
+        }
+
+        private static void SingleNumber()
+        {
+            int[] input = { 0, 1, 0, 1, 0, 1, 99 };
+            int res = LitCodeProblems.SingleNumber(input);
+            Console.WriteLine(res);
         }
 
         private static void RemoveZeroSumSublists()

@@ -71,9 +71,9 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\b
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.dll.config
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csprojAssemblyReference.cache
-G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.AssemblyInfoInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.AssemblyInfo.cs
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.pdb

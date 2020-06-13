@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisTools", "AisTools\AisToo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems", "Problems\Problems.csproj", "{EE314DEF-61A4-46D7-8AE1-5A06D4889D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvalidPassports", "WebInteraction\InvalidPassports.csproj", "{32BC31FC-6E8D-456F-820D-8D09AACB3473}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvalidPassports", "WebServices\InvalidPassports.csproj", "{32BC31FC-6E8D-456F-820D-8D09AACB3473}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebInteraction", "WebInteraction", "{8F9BA399-DB62-4305-A511-171B33106FF5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{8F9BA399-DB62-4305-A511-171B33106FF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

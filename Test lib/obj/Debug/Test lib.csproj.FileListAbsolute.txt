@@ -47,6 +47,8 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\T
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csprojAssemblyReference.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Test lib.exe.config
@@ -62,5 +64,3 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\A
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.dll
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.pdb
