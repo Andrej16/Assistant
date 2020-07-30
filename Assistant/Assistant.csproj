@@ -87,6 +87,7 @@
     <Compile Include="UnderGroundWaiter.cs" />
     <Compile Include="UnderGroundWorker.cs" />
     <Compile Include="UnderGroundWorkers.cs" />
+    <Compile Include="XmlUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

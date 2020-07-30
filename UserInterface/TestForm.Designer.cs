@@ -32,6 +32,7 @@
             this.dgvThreadTest = new System.Windows.Forms.DataGridView();
             this.dgvThreadTest2 = new System.Windows.Forms.DataGridView();
             this.dgvThreadTest3 = new System.Windows.Forms.DataGridView();
+            this.tbOutput = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThreadTest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThreadTest2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThreadTest3)).BeginInit();
@@ -72,11 +73,20 @@
             this.dgvThreadTest3.Size = new System.Drawing.Size(620, 254);
             this.dgvThreadTest3.TabIndex = 3;
             // 
+            // tbOutput
+            // 
+            this.tbOutput.Location = new System.Drawing.Point(658, 343);
+            this.tbOutput.Multiline = true;
+            this.tbOutput.Name = "tbOutput";
+            this.tbOutput.Size = new System.Drawing.Size(282, 253);
+            this.tbOutput.TabIndex = 4;
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1251, 683);
+            this.Controls.Add(this.tbOutput);
             this.Controls.Add(this.dgvThreadTest3);
             this.Controls.Add(this.dgvThreadTest2);
             this.Controls.Add(this.dgvThreadTest);
@@ -97,6 +107,7 @@
         private System.Windows.Forms.DataGridView dgvThreadTest;
         private System.Windows.Forms.DataGridView dgvThreadTest2;
         private System.Windows.Forms.DataGridView dgvThreadTest3;
+        private System.Windows.Forms.TextBox tbOutput;
     }
 }
 

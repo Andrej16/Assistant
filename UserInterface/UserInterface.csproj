@@ -57,15 +57,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FAisAssistant.cs">
+    <Compile Include="Obsolete\FAisAssistant.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FAisAssistant.Designer.cs">
+    <Compile Include="Obsolete\FAisAssistant.Designer.cs">
       <DependentUpon>FAisAssistant.cs</DependentUpon>
     </Compile>
-    <Compile Include="FAisAssistantPartial\FAisAssistantTools.cs">
+    <Compile Include="Obsolete\FAisAssistantPartial\FAisAssistantTools.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Helpers\DBHelper.cs" />
     <Compile Include="ServiceInstaller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +81,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FAisAssistant.resx">
+    <EmbeddedResource Include="Obsolete\FAisAssistant.resx">
       <DependentUpon>FAisAssistant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />

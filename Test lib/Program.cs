@@ -5,8 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.IO;
 using System.Net;
 using System.Threading;
+using System.Xml;
 using static Assistant.Converter;
 using ParametersCollection = System.Collections.Generic.Dictionary<string, object>;
 
@@ -44,9 +46,27 @@ namespace Assistant
 
             //Test Binary tree
             //TestBinaryTree();
-            FileUploaderTest();
+            //FileUploaderTest();
+            XmlParser();
 
             Console.ReadKey();
+        }
+
+        private static void XmlParser()
+        {
+            //string input = "<Ais><msg type='AddendumList'>3519882,3519881,3519880,</msg></Ais>";
+            //string res = XmlUtil.GetValueFromSpecAttribute(input, "type", "AddendumList");
+            string res = null;
+            var input = new StreamReader("xmldata.xml").ReadToEnd();
+            
+            var reader = new XmlTextReader(new StringReader(input));
+            reader.WhitespaceHandling = WhitespaceHandling.None;
+            while (reader.Read())
+                if (reader.NodeType == XmlNodeType.Element)
+                    if (reader.GetAttribute("type") == "AddendumList")
+                        break;
+            res = reader.ReadString();
+            Console.WriteLine(res);
         }
 
         private static void FileUploaderTest()

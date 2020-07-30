@@ -1,17 +1,55 @@
 ﻿using Problems.RemoveZeroSumSublists;
 using System;
+using System.Diagnostics;
+using System.Threading;
 
 namespace Problems
 {
     class Program
     {
+        private static Mutex mut = new Mutex(false, "Alone");
         static void Main(string[] args)
         {
             //FindNUniqueIntegers();
             //FinePhones();
             //RemoveZeroSumSublists();
-            SingleNumber();
+            //SingleNumber();
+            //StrongPasswordChecker();
+            //MutexUsing();
+            CheckPossibility();
             Console.ReadKey();
+        }
+
+        private static void CheckPossibility()
+        {
+            int[] falseResult = { 3, 4, 2, 3 }; //false
+            int[] trueResult = { 4, 2, 3 };  //true
+            int[] allEqual = { 1, 1, 1 }; //true
+            if(LitCodeProblems.CheckPossibility2(allEqual))
+                Console.WriteLine("Result is true!");
+            else
+                Console.WriteLine("Result is false!");
+        }
+
+        private static void MutexUsing()
+        {
+            if (!mut.WaitOne(1000))
+                Process.GetCurrentProcess().Kill();
+            Console.WriteLine("I am worked!");
+            for (int i = 0; i < 1000; i++)
+            {
+                Thread.Sleep(1000);
+                Console.Write(".");
+            }               
+            mut.ReleaseMutex();
+        }
+
+        private static void StrongPasswordChecker()
+        {
+            string source = "1Qaz2wsx";
+            Console.WriteLine(source);
+            int min = LitCodeProblems.StrongPasswordChecker(source);
+            Console.WriteLine("The MINIMUM change required to make s a strong password ==> {0}", min);
         }
 
         private static void SingleNumber()

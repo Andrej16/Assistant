@@ -67,5 +67,8 @@
       <Name>InvalidPassports</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="xmldata.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

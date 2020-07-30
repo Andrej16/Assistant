@@ -87,5 +87,127 @@ namespace Problems
                     return c;
             return 0;
         }
+        /// <summary>
+        /// 420. Strong Password Checker
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/strong-password-checker/"/>
+        public static int StrongPasswordChecker(string s)
+        {
+            char holdChar = s.Length > 0 ? s[0] : ' ';
+            bool isLowercaseCheck = false, isUpperCaseCheck = false, isDigitCheck = false;
+            int repeatCounter = 1, changesCounter = 3; //for must contain at least one lowercase letter, at least one uppercase letter, and at least one digit.
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                char symb = s[i];
+                if (holdChar.Equals(symb))
+                    repeatCounter++;
+                else
+                {
+                    repeatCounter = 1;
+                    holdChar = symb;
+                }                   
+                if (repeatCounter >= 3)
+                    changesCounter++;
+
+                if (!isLowercaseCheck && symb >= 97 && symb <= 122)
+                {
+                    changesCounter--;
+                    isLowercaseCheck = true;
+                }                    
+                if (!isUpperCaseCheck && symb >= 65 && symb <= 90)
+                {
+                    changesCounter--;
+                    isUpperCaseCheck = true;
+                }                    
+                if (!isDigitCheck && symb >= 48 && symb <= 57)
+                {
+                    changesCounter--;
+                    isDigitCheck = true;
+                }
+            }
+            if(s.Length >= 6 && s.Length <= 20)
+                return changesCounter;
+            else if(s.Length < 6)
+            {
+                changesCounter += 6 - s.Length;
+            }
+            else if(s.Length > 20)
+            {
+                changesCounter += s.Length - 20;
+            }
+            return changesCounter;
+        }
+        /// <summary>
+        /// 665. Non-decreasing Array
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/non-decreasing-array/"/>
+        public static bool CheckPossibility(int[] nums)
+        {
+            int max = -100000;
+            int indx = 0;
+            int count = 0;
+            for (int pass = 0; pass < nums.Length; pass++)
+            {
+                int cond = nums.Length - pass;
+                for (int i = 0; i < cond; i++)
+                {
+                    if (nums[i] > max)
+                    {
+                        max = nums[i];
+                        indx = i;
+                    }                      
+                }
+
+                if(indx < cond - 1)
+                {
+                    count++;
+                    for (int m = indx + 1; m < cond; m++)
+                    {
+                        nums[m - 1] = nums[m];
+                    }
+                    nums[cond - 1] = max;
+                }
+                max = -100000;
+            }
+            return count <= 1;
+        }
+        public static bool CheckPossibility2(int[] nums)
+        {
+            int max = nums[0];
+            int indx = 0;
+            int count = 0;
+            bool nm = false;
+
+            for (int pass = 0; pass < nums.Length; pass++)
+            {
+                int cond = nums.Length - pass;
+                for (int c = 0; c < cond; c++)
+                {
+                    if (max > nums[c])
+                        nm = true;
+                    else if(max != nums[c])
+                    {
+                        max = nums[c];
+                        indx = c;
+                    }
+                }
+                if (nm)
+                {
+                    for (int m = indx + 1; m < cond; m++)
+                    {
+                        nums[m - 1] = nums[m];
+
+                    }
+                    nums[cond - 1] = max;
+                    count++;
+                }
+                max = nums[0];
+                indx = 0;
+                nm = false;
+            }
+            return count <= 1;
+        }
+
     }
 }

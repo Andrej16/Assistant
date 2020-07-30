@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Threading;
 using System.Windows.Forms;
 using UserControls;
+using UserInterface.Helpers;
 
 namespace UserInterface
 {
@@ -14,32 +15,21 @@ namespace UserInterface
     {
         private object[] responseAddress = new object[5];
         private List<UnderGroundWorker> underGroundWorkers;
-
+        private DBHelper dBHelper;
         private delegate void SetDelegate(DataSet d);
-        private UnderGroundWaiter ugw;
+        private AutoResetEvent[] events;
+        private DataTable[] tables = new DataTable[3];
+        private Action _setDelegate;
         public TestForm()
         {
             InitializeComponent();
+            InitializeCustom();            
         }
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            UcAddressChoice uc = new UcAddressChoice(inp);
 
-            ShowFrame(uc);
-        }
-        private void inp(object arg1, object arg2, object arg3, object arg4, object arg5)
+        private void InitializeCustom()
         {
-            responseAddress[0] = arg1;
-            responseAddress[1] = arg2;
-            responseAddress[2] = arg3;
-            responseAddress[3] = arg4;
-            responseAddress[4] = arg5;
-
-            MessageBox.Show($"OblId={responseAddress[0]}, " +
-                $"CityId={responseAddress[1]}, " +
-                $"StreetId={responseAddress[2]}, " +
-                $"Build={responseAddress[3]}, " +
-                $"Nums={responseAddress[4]}");
+            dBHelper = new DBHelper();
+            events = new AutoResetEvent[] { new AutoResetEvent(false), new AutoResetEvent(false), new AutoResetEvent(false) };
         }
 
         private void TestForm_Load(object sender, EventArgs e)
@@ -49,8 +39,49 @@ namespace UserInterface
 
             //TestNoThreading();
             //TestunderGroundWorker();
-            TestUnderGroundWaiter();
+            //TestUnderGroundWaiter();
+            TreadPoolLoader();
         }
+        #region ThreadPool loader
+        private void TreadPoolLoader()
+        {
+            ThreadPool.QueueUserWorkItem(Load1, events[0]);
+            ThreadPool.QueueUserWorkItem(Load2, events[1]);
+            ThreadPool.QueueUserWorkItem(Load3, events[2]);
+            new Thread(Binder).Start();
+        }
+        private void Binder()
+        {
+            _setDelegate = BindAll;
+            WaitHandle.WaitAll(events);
+            Invoke(_setDelegate);
+        }
+        private void BindAll()
+        {
+            SetDataSource(tables[0]);
+            SetDataSource2(tables[1]);
+            SetDataSource3(tables[2]);
+            tbOutput.Text += "All grids binded!" + Environment.NewLine;
+        }
+        private void Load1(object state)
+        {
+            tables[0] = dBHelper.SelectRows();
+            Invoke((Action)delegate { tbOutput.Text += "Loader1 load data!" + Environment.NewLine; });
+            (state as AutoResetEvent).Set();
+        }
+        private void Load2(object state)
+        {
+            tables[1] = dBHelper.SelectRows2();
+            Invoke((Action)delegate { tbOutput.Text += "Loader2 load data!" + Environment.NewLine; });
+            (state as AutoResetEvent).Set();
+        }
+        private void Load3(object state)
+        {
+            tables[2] = dBHelper.SelectRows3();
+            Invoke((Action)delegate { tbOutput.Text += "Loader3 load data!" + Environment.NewLine; });
+            (state as AutoResetEvent).Set();
+        }
+        #endregion
         private void TestThreadingLoad()
         {
             string query = "SELECT * FROM HumanResources.Employee";
@@ -64,16 +95,13 @@ namespace UserInterface
                 this.Invoke(sd, new object[] { ds });
             else
                 SetDataSource(ds);
-
-
         }
         private void TestunderGroundWorker()
         {
-
             UnderGroundWorkers workers = new UnderGroundWorkers();
-            workers.Add(this, SelectRows, SetDataSource);
-            workers.Add(this, SelectRows2, SetDataSource2);
-            workers.Add(this, SelectRows3, SetDataSource3);
+            workers.Add(this, dBHelper.SelectRows, SetDataSource);
+            workers.Add(this, dBHelper.SelectRows2, SetDataSource2);
+            workers.Add(this, dBHelper.SelectRows3, SetDataSource3);
             workers.DoLoad();
             //underGroundWorkers = new List<UnderGroundWorker>();
             //underGroundWorkers.Add(new UnderGroundWorker(this, SelectRows, SetDataSource));
@@ -88,53 +116,23 @@ namespace UserInterface
             //ugw.RunLoader();
 
             //UnderGroundWorker ugw2 = new UnderGroundWorker(this, SelectRows2, SetDataSource2);
-            //ugw2.RunLoader();
-
-            
+            //ugw2.RunLoader();           
         }
-
         private void TestUnderGroundWaiter()
         {
-            ugw = new UnderGroundWaiter(this, SelectRows, SetDataSource);
-            UnderGroundWaiter ugw2 = new UnderGroundWaiter(this, SelectRows2, SetDataSource2);
-            UnderGroundWaiter ugw3 = new UnderGroundWaiter(this, SelectRows3, SetDataSource3);
+            UnderGroundWaiter ugw = new UnderGroundWaiter(this, dBHelper.SelectRows, SetDataSource);
+            UnderGroundWaiter ugw2 = new UnderGroundWaiter(this, dBHelper.SelectRows2, SetDataSource2);
+            UnderGroundWaiter ugw3 = new UnderGroundWaiter(this, dBHelper.SelectRows3, SetDataSource3);
             Thread.Sleep(1000);
             ugw.RunLoader();
             ugw2.RunLoader();
             ugw3.RunLoader();
         }
-        private DataTable SelectRows()
-        {
-            DataTable ds = new DataTable();
-
-            BaseFactory ubf = new BaseFactory(Assistant.DbType.Test);
-            var pars = new Dictionary<string, object>() { { "p_st_ci_id", 1141 } };
-            ds = ubf.SelectToTable("pack_street.find_street", pars);
-            return ds;
-        }
-        private DataTable SelectRows2()
-        {
-            DataTable ds = new DataTable();
-
-            BaseFactory ubf = new BaseFactory(Assistant.DbType.Test);
-            var pars = new Dictionary<string, object>() { { "p_st_ci_id", 1074 } };
-            ds = ubf.SelectToTable("pack_street.find_street", pars);
-            return ds;
-        }
-        private DataTable SelectRows3()
-        {
-            DataTable ds = new DataTable();
-
-            BaseFactory ubf = new BaseFactory(Assistant.DbType.Test);
-            var pars = new Dictionary<string, object>() { { "p_st_ci_id", 1068 } };
-            ds = ubf.SelectToTable("pack_street.find_street", pars);
-            return ds;
-        }
-        private void SetDataSource(DataSet ds)
-        {
-            dgvThreadTest.AutoGenerateColumns = true;
-            dgvThreadTest.DataSource = ds.Tables[0];
-        }
+        //private void SetDataSource(DataSet ds)
+        //{
+        //    dgvThreadTest.AutoGenerateColumns = true;
+        //    dgvThreadTest.DataSource = ds.Tables[0];
+        //}
         private void SetDataSource(object dsObj)
         {
             DataTable dt = dsObj as DataTable;
@@ -154,7 +152,6 @@ namespace UserInterface
             dgvThreadTest3.AutoGenerateColumns = true;
             dgvThreadTest3.DataSource = dt;
         }
-
         private void TestNoThreading()
         {
             string query = "SELECT * FROM HumanResources.Employee";
@@ -180,6 +177,27 @@ namespace UserInterface
                 return dataset;
             }
         }
+        #region AddressChoice control
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UcAddressChoice uc = new UcAddressChoice(inp);
 
+            ShowFrame(uc);
+        }
+        private void inp(object arg1, object arg2, object arg3, object arg4, object arg5)
+        {
+            responseAddress[0] = arg1;
+            responseAddress[1] = arg2;
+            responseAddress[2] = arg3;
+            responseAddress[3] = arg4;
+            responseAddress[4] = arg5;
+
+            MessageBox.Show($"OblId={responseAddress[0]}, " +
+                $"CityId={responseAddress[1]}, " +
+                $"StreetId={responseAddress[2]}, " +
+                $"Build={responseAddress[3]}, " +
+                $"Nums={responseAddress[4]}");
+        }
+        #endregion
     }
 }
