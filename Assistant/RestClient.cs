@@ -110,19 +110,40 @@ namespace InvalidPassports
         /// <summary>
         /// Send request to the specified Uri 
         /// </summary>
-        /// <param name="content">Content to send</param>
-        /// <param name="method">The method for the request.</param>
         /// <param name="contentType">The value of the Content-type HTTP header(Ex. @"application/json").</param>
         /// <returns>Response content</returns>
-        public string SendRequest(string content, string method, string contentType)
+        public string SendGetRequest(string contentType)
         {
             string output = null;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(hostUrl);
-            request.Method = method; 
+            request.Method = "get";
+            request.ContentType = contentType;
+            request.UseDefaultCredentials = needDefaultCredentials;
+            request.CookieContainer = cookies;
+            using (WebResponse response = request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+                output = reader.ReadToEnd();
+
+            return output;
+        }
+        /// <summary>
+        /// Send request to the specified Uri 
+        /// </summary>
+        /// <param name="content">Content to send</param>
+        /// <param name="contentType">The value of the Content-type HTTP header(Ex. @"application/json").</param>
+        /// <returns>Response content</returns>
+        public string SendPostRequest(string content, string contentType)
+        {
+            string output = null;
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(hostUrl);
+            request.Method = "post";
 
             byte[] byteArray = Encoding.UTF8.GetBytes(content);
             request.ContentLength = byteArray.Length;
+
             request.ContentType = contentType;
             request.UseDefaultCredentials = needDefaultCredentials;
 
@@ -138,5 +159,6 @@ namespace InvalidPassports
 
             return output;
         }
+
     }
 }

@@ -229,13 +229,13 @@ namespace Assistant
 
                 command.ExecuteNonQuery();
 
-                command.Transaction.Commit();
+                command.Transaction?.Commit();
 
                 retval = IsFunction ? command.Parameters[0].Value : null;
             }
             catch (Exception ex)
             {
-                command.Transaction.Rollback();
+                command.Transaction?.Rollback();
                 throw ex;
             }
 
@@ -262,11 +262,11 @@ namespace Assistant
 
                 command.ExecuteNonQuery();
 
-                command.Transaction.Commit();
+                command.Transaction?.Commit();
             }
             catch (Exception ex)
             {
-                command.Transaction.Rollback();
+                command.Transaction?.Rollback();
                 throw ex;
             }
 

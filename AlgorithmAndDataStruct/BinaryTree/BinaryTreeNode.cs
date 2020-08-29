@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assistant.Collections
+namespace AlgorithmAndDataStruct
 {
     class BinaryTreeNode<TNode> : IComparable<TNode> where TNode : IComparable<TNode>
     {

@@ -16,8 +16,24 @@ namespace Problems
             //SingleNumber();
             //StrongPasswordChecker();
             //MutexUsing();
+
+            Console.WriteLine(RemoveOuterParentheses());
             CheckPossibility();
             Console.ReadKey();
+        }
+        private static string RemoveOuterParentheses(/*string s*/)
+        {
+            string s = "(()())(())";
+
+            char[] inpArr = s.ToCharArray();
+
+            for (int i = 0, cnt = 0; i < inpArr.Length; i++)
+                if (s[i] == '(' && cnt++ == 0)
+                    inpArr[i] = ' ';
+                else if (s[i] == ')' && --cnt == 0)
+                    inpArr[i] = ' ';
+
+            return new string(inpArr).Replace(" ", "");
         }
 
         private static void CheckPossibility()

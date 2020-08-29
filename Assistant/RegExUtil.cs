@@ -153,6 +153,22 @@ namespace Assistant
             return Regex.Replace(str, @"[^a-zA-ZА-Яа-я0-9\.]+", "", RegexOptions.Compiled);
         }
         /// <summary>
+        /// Все буквенные символы, пробелы и тире, апостроф. Включает символы Lu, Ll, Lt, Lm и Lo
+        /// </summary>
+        /// <see cref="https://docs.microsoft.com/ru-ru/dotnet/standard/base-types/character-classes-in-regular-expressions"/>
+        public static bool IsLettersOnly(string input)
+        {
+            return Regex.IsMatch(input, @"^[\p{L} \-']+$");
+        }
+        /// <summary>
+        /// Все буквенные символы, цыфры, пробелы и тире, апостроф. Включает символы Lu, Ll, Lt, Lm и Lo
+        /// </summary>
+        /// <see cref="https://docs.microsoft.com/ru-ru/dotnet/standard/base-types/character-classes-in-regular-expressions"/>
+        public static bool IsLettersAndDigitOnly(string input)
+        {
+            return Regex.IsMatch(input, @"^[\p{L}\d \-']+$");
+        }
+        /// <summary>
         /// Значение может содержать одно или два слова, начинающихся с заглавной буквы 
         /// </summary>
         public static bool CheckNameMembNatMinority(string source)

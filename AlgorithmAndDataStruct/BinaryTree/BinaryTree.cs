@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Assistant.Collections
+namespace AlgorithmAndDataStruct
 {
     /// <summary>
     /// Двоичное дерево поиска
@@ -235,6 +235,88 @@ namespace Assistant.Collections
             }
         }
         #endregion
+        #region IterativeTreeWalk Queue
+        //        8
+        //      /   \
+        //     5    12 
+        //    / \   / \  
+        //   3   7 10 15                                                             
+        //  /           \  
+        // 1             71 
+        //Output: 8 5 12 3 7 10 15 1 71
+        public void IterativeQueueTraversal()
+        {
+            IterativeQueueTraversal(_head);
+        }
+        private void IterativeQueueTraversal(BinaryTreeNode<T> head)
+        {
+            if (head is null)
+                return;
+
+            Queue<BinaryTreeNode<T>> queue = new Queue<BinaryTreeNode<T>>();
+            queue.Enqueue(head);
+            while(queue.Count > 0)
+            {
+                BinaryTreeNode<T> temp = queue.Dequeue();
+                Console.WriteLine(temp.Value);
+
+                if (temp.Left != null)
+                    queue.Enqueue(temp.Left);
+                if (temp.Right != null)
+                    queue.Enqueue(temp.Right);
+            }
+        }
+        #endregion
+        #region IterativeInorderTraversal Queue
+        //        8
+        //      /   \
+        //     5    12 
+        //    / \   / \  
+        //   3   7 10 15                                                             
+        //  /           \  
+        // 1             71 
+        //Output: 5 3 7 1 8 12 10 15 71
+        public void IterativeQueueInorderTraversal()
+        {
+            IterativeQueueInorderTraversal(_head);
+        }
+        private void IterativeQueueInorderTraversal(BinaryTreeNode<T> head)
+        {
+            if (head is null)
+                return;
+
+            Queue<BinaryTreeNode<T>> queue = new Queue<BinaryTreeNode<T>>();
+            if(head.Left != null)
+            {
+                queue.Enqueue(head.Left);
+                while (queue.Count > 0)
+                {
+                    BinaryTreeNode<T> temp = queue.Dequeue();
+                    Console.WriteLine(temp.Value);
+
+                    if (temp.Left != null)
+                        queue.Enqueue(temp.Left);
+                    if (temp.Right != null)
+                        queue.Enqueue(temp.Right);
+                }
+            }
+            Console.WriteLine(head.Value);
+            if (head.Right != null)
+            {
+                queue.Enqueue(head.Right);
+                while (queue.Count > 0)
+                {
+                    BinaryTreeNode<T> temp = queue.Dequeue();
+                    Console.WriteLine(temp.Value);
+
+                    if (temp.Left != null)
+                        queue.Enqueue(temp.Left);
+                    if (temp.Right != null)
+                        queue.Enqueue(temp.Right);
+                }
+            }
+        }
+        #endregion
         #region Нумератор
         IEnumerator IEnumerable.GetEnumerator()
         {
@@ -245,5 +327,31 @@ namespace Assistant.Collections
             return new BinaryTreeEnum<T>(_head);
         }
         #endregion
+        public void Insert(T value)
+        {
+            TreeInsertRecursive(_head, new BinaryTreeNode<T>(value));
+        }
+        private void TreeInsertRecursive(BinaryTreeNode<T> current, BinaryTreeNode<T> newNode)
+        {
+            if(current is null)
+            {
+                _head ??= newNode;
+                Count++;
+                return;
+            }
+
+            if (newNode.CompareNode(current) < 0)
+            {
+                TreeInsertRecursive(current.Left, newNode);
+                current.Left ??= newNode;
+                current.Left ??= current;
+            }
+            else
+            {
+                TreeInsertRecursive(current.Right, newNode);
+                current.Right ??= newNode;
+                current.Right ??= current;
+            }
+        }
     }
 }

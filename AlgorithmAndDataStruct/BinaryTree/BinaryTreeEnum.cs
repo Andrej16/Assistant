@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Assistant.Collections
+namespace AlgorithmAndDataStruct
 {
     internal class BinaryTreeEnum<T> : IEnumerator<T> where T : IComparable<T>
     {

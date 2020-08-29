@@ -23,3 +23,4 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\A
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
+g:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csprojAssemblyReference.cache

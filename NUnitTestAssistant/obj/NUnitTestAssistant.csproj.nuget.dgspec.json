@@ -1,51 +1,44 @@
 {
   "format": 1,
   "restore": {
-    "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj": {}
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj": {}
   },
   "projects": {
-    "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
       "restore": {
-        "projectUniqueName": "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj",
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj",
         "projectName": "Assistant",
-        "projectPath": "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
       },
       "frameworks": {
-        "net461": {}
+        "net48": {}
       }
     },
-    "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj": {
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj",
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj",
         "projectName": "NUnitTestAssistant",
-        "projectPath": "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj",
-        "packagesPath": "C:\\Users\\ashilin\\.nuget\\packages\\",
-        "outputPath": "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\obj\\",
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\NUnitTestAssistant.csproj",
+        "packagesPath": "C:\\Users\\jhggjhgjh\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestAssistant\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ashilin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\jhggjhgjh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
-                "projectPath": "G:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
+              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
+                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
               }
             }
           }

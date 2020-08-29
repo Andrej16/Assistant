@@ -64,3 +64,7 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\A
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.exe
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\Test lib.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.dll
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.pdb
