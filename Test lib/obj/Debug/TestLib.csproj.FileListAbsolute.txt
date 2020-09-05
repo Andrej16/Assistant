@@ -1,3 +1,6 @@
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\TestLib.exe.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\TestLib.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\TestLib.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Oracle.ManagedDataAccess.dll
@@ -10,8 +13,5 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\A
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.csproj.CopyComplete
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\TestLib.exe.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\TestLib.exe
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\TestLib.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.pdb

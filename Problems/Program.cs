@@ -8,6 +8,15 @@ namespace Problems
     class Program
     {
         private static Mutex mut = new Mutex(false, "Alone");
+        private static void PrintArray(int[] result)
+        {
+            Console.Write("[ ");
+            foreach (var item in result)
+            {
+                Console.Write(item + ", ");
+            }
+            Console.Write(']');
+        }
         static void Main(string[] args)
         {
             //FindNUniqueIntegers();
@@ -16,10 +25,27 @@ namespace Problems
             //SingleNumber();
             //StrongPasswordChecker();
             //MutexUsing();
+            //Console.WriteLine(RemoveOuterParentheses());
+            //CheckPossibility();
+            //KidsWithCandies();
+            //RunningSum();
+            FindMinFibonacciNumbers();
 
-            Console.WriteLine(RemoveOuterParentheses());
-            CheckPossibility();
             Console.ReadKey();
+        }
+
+        private static void FindMinFibonacciNumbers()
+        {
+            int k = 3;
+            int count = LitCodeProblems.FindMinFibonacciNumbers(k);
+            Console.WriteLine($"For k = {k} we can use {count}");
+        }
+
+        private static void RunningSum()
+        {
+            int[] input = { 3, 1, 2, 10, 1 };
+            var result = LitCodeProblems.RunningSum(input);
+            PrintArray(result);
         }
         private static string RemoveOuterParentheses(/*string s*/)
         {
@@ -115,6 +141,18 @@ namespace Problems
             
             foreach (var item in result)
                 Console.WriteLine(item);
+        }
+
+        static void KidsWithCandies()
+        {
+            int[] candies = { 2, 3, 5, 1, 3 };
+            var result = LitCodeProblems.KidsWithCandies(candies, 3);
+            Console.Write('[');
+            foreach (var item in result)
+            {
+                Console.Write(item ? "true, " : "false, ");
+            }
+            Console.WriteLine(']');
         }
     }
 }

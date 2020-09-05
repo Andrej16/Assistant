@@ -1,5 +1,6 @@
 ﻿using Problems.RemoveZeroSumSublists;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
@@ -208,6 +209,73 @@ namespace Problems
             }
             return count <= 1;
         }
-
+        /// <summary>
+        /// 1431. Kids With the Greatest Number of Candies
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/"/>
+        public static IList<bool> KidsWithCandies(int[] candies, int extraCandies)
+        {
+            List<bool> resultList = new List<bool>();
+            int max = int.MinValue;
+            foreach (int num in candies)
+            {
+                if (num > max)
+                    max = num;
+            }
+            foreach (int num in candies)
+            {
+                int tempCount = num + extraCandies;
+                resultList.Add(tempCount >= max);
+            }
+            return resultList;
+        }
+        /// <summary>
+        /// 1480. Running Sum of 1d Array
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/running-sum-of-1d-array/"/>
+        public static int[] RunningSum(int[] nums)
+        {
+            int[] ra = new int[nums.Length];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    ra[i] += nums[j];
+                }
+                ra[i] += nums[i];
+            }
+            return ra;
+        }
+        /// <summary>
+        /// 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+        /// </summary>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        /// <see cref="https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/"/>
+        public static int FindMinFibonacciNumbers(int k)
+        {
+            int[] fibArr = new int[k + 2];
+            int optimumIndx = 1;
+            for (int i = 1; i < fibArr.Length; i++)
+            {
+                if (i == 1 || i == 2)
+                    fibArr[i] = 1;
+                else
+                    fibArr[i] = fibArr[i - 1] + fibArr[i - 2];
+                if (fibArr[i] <= k)
+                    optimumIndx = i;
+            }
+            int counter = 0;
+            int tempSum = 0;
+            for(int n = optimumIndx; tempSum < k; n--)
+            {
+                if (fibArr[n] + tempSum <= k)
+                {
+                    tempSum += fibArr[n];
+                    counter++;
+                }                   
+            }
+            return counter;
+        }
     }
 }
