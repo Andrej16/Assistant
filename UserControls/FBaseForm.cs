@@ -9,7 +9,7 @@ namespace UserControls
         {
             InitializeComponent();
         }
-        protected void ShowFrame(Control control, bool center = true)
+        public void ShowFrame(Control control, bool center = true)
         {
             control.Parent = this;
             control.Visible = true;

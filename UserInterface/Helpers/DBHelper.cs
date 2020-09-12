@@ -3,10 +3,20 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace UserInterface.Helpers
+namespace UserInterface
 {
-    class DBHelper
+    public class DBHelper
     {
+        public DataTable Find(object cityId)
+        {
+            DataTable ds = new DataTable();
+
+            BaseFactory ubf = new BaseFactory(Assistant.DbType.Test);
+            var pars = new Dictionary<string, object>() { { "p_st_ci_id", cityId } };
+            ds = ubf.SelectToTable("pack_street.find_street", pars);
+            return ds;
+        }
+
         public DataTable SelectRows()
         {
             DataTable ds = new DataTable();

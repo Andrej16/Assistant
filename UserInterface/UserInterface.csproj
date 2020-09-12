@@ -58,6 +58,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AddressChoiceControl.cs" />
+    <Compile Include="Controllers\AsyncATP.cs" />
+    <Compile Include="Controllers\ThreadindLoader.cs" />
+    <Compile Include="Controllers\TreadPoolLoader.cs" />
+    <Compile Include="Controllers\UnderGroundWaiterTest.cs" />
+    <Compile Include="Controllers\UnderGroundWorkersTest.cs" />
+    <Compile Include="Core\ControllerBase.cs" />
+    <Compile Include="Core\ITestLib.cs" />
+    <Compile Include="Core\Tester.cs" />
     <Compile Include="Obsolete\FAisAssistant.cs">
       <SubType>Form</SubType>
     </Compile>

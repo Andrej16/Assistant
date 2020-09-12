@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.dgvThreadTest = new System.Windows.Forms.DataGridView();
             this.dgvThreadTest2 = new System.Windows.Forms.DataGridView();
             this.dgvThreadTest3 = new System.Windows.Forms.DataGridView();
@@ -37,17 +36,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvThreadTest2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThreadTest3)).BeginInit();
             this.SuspendLayout();
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(13, 13);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(109, 13);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Run UcAdressChoice";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // dgvThreadTest
             // 
@@ -90,7 +78,6 @@
             this.Controls.Add(this.dgvThreadTest3);
             this.Controls.Add(this.dgvThreadTest2);
             this.Controls.Add(this.dgvThreadTest);
-            this.Controls.Add(this.linkLabel1);
             this.Name = "TestForm";
             this.Load += new System.EventHandler(this.TestForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThreadTest)).EndInit();
@@ -103,11 +90,10 @@
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.DataGridView dgvThreadTest;
-        private System.Windows.Forms.DataGridView dgvThreadTest2;
-        private System.Windows.Forms.DataGridView dgvThreadTest3;
-        private System.Windows.Forms.TextBox tbOutput;
+        public System.Windows.Forms.DataGridView dgvThreadTest;
+        public System.Windows.Forms.DataGridView dgvThreadTest2;
+        public System.Windows.Forms.DataGridView dgvThreadTest3;
+        public System.Windows.Forms.TextBox tbOutput;
     }
 }
 
