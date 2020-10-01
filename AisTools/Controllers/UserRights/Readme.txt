@@ -1,0 +1,2 @@
+﻿Использование в 
+UserInterface.Controllers/AisUserRightsTest

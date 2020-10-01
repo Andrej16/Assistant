@@ -277,5 +277,62 @@ namespace Problems
             }
             return counter;
         }
+        /// <summary>
+        /// 13. Roman to Integer
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        /// <see cref="https://leetcode.com/problems/roman-to-integer/"/>
+        public static int romanToInt(string s)
+        {
+            Dictionary<char, int> dict = new Dictionary<char, int>();
+            dict.Add('I', 1);
+            dict.Add('V', 5);
+            dict.Add('X', 10);
+            dict.Add('L', 50);
+            dict.Add('C', 100);
+            dict.Add('D', 500);
+            dict.Add('M', 1000);
+            int temp, sum = 0;
+            bool smalstRight = false;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                switch (s[i + 1])
+                {
+                    case 'V' when s[i].Equals('I'):
+                        temp = 4;
+                        smalstRight = true;
+                        break;
+                    case 'X' when s[i].Equals('I'):
+                        temp = 9;
+                        smalstRight = true;
+                        break;
+                    case 'L' when s[i].Equals('X'):
+                        temp = 40;
+                        break;
+                    case 'C' when s[i].Equals('X'):
+                        temp = 90;
+                        smalstRight = true;
+                        break;
+                    case 'D' when s[i].Equals('C'):
+                        temp = 400;
+                        smalstRight = true;
+                        break;
+                    case 'M' when s[i].Equals('C'):
+                        temp = 900;
+                        smalstRight = true;
+                        break;
+                    default:
+                        temp = dict[s[i]];
+                        break;
+                }
+                i = smalstRight ? i + 1 : i;
+                sum += temp;
+                smalstRight = false;
+            }
+            return sum;
+        }
+
     }
 }

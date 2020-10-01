@@ -1,5 +1,6 @@
 ﻿using Problems.RemoveZeroSumSublists;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
@@ -29,7 +30,8 @@ namespace Problems
             //CheckPossibility();
             //KidsWithCandies();
             //RunningSum();
-            FindMinFibonacciNumbers();
+            //FindMinFibonacciNumbers();
+            RomanToInteger();
 
             Console.ReadKey();
         }
@@ -153,6 +155,13 @@ namespace Problems
                 Console.Write(item ? "true, " : "false, ");
             }
             Console.WriteLine(']');
+        }
+        static void RomanToInteger()
+        {
+            string roman = "MCMXCIV";
+            int result = LitCodeProblems.romanToInt(roman);
+            Console.WriteLine($"Roman: {roman}");
+            Console.WriteLine($"Integer: {result}");
         }
     }
 }

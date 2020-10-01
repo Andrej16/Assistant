@@ -68,7 +68,6 @@
     <Compile Include="Converter.cs" />
     <Compile Include="CoreTool.cs" />
     <Compile Include="DictionaryStatic.cs" />
-    <Compile Include="ExcelFactory.cs" />
     <Compile Include="Imap.cs" />
     <Compile Include="InfoHelper.cs" />
     <Compile Include="Logger.cs" />

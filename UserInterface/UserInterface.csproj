@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AddressChoiceControl.cs" />
+    <Compile Include="Controllers\AisUserRightsTest.cs" />
     <Compile Include="Controllers\AsyncATP.cs" />
     <Compile Include="Controllers\ThreadindLoader.cs" />
     <Compile Include="Controllers\TreadPoolLoader.cs" />
@@ -67,15 +68,6 @@
     <Compile Include="Core\ControllerBase.cs" />
     <Compile Include="Core\ITestLib.cs" />
     <Compile Include="Core\Tester.cs" />
-    <Compile Include="Obsolete\FAisAssistant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Obsolete\FAisAssistant.Designer.cs">
-      <DependentUpon>FAisAssistant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Obsolete\FAisAssistantPartial\FAisAssistantTools.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Helpers\DBHelper.cs" />
     <Compile Include="ServiceInstaller.cs">
       <SubType>Form</SubType>
@@ -91,9 +83,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Obsolete\FAisAssistant.resx">
-      <DependentUpon>FAisAssistant.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="ServiceInstaller.resx">
       <DependentUpon>ServiceInstaller.cs</DependentUpon>
@@ -125,6 +114,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AisTools\AisTools.csproj">
+      <Project>{5B78F2C3-2364-435B-ADB3-F0EDD1DFE8F8}</Project>
+      <Name>AisTools</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Assistant\Assistant.csproj">
       <Project>{AEE284F3-83E7-4DA2-8C0D-A553A9285A95}</Project>
       <Name>Assistant</Name>
@@ -133,6 +126,35 @@
       <Project>{8465F214-95CD-4402-B6FC-338C595CB6DB}</Project>
       <Name>UserControls</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
