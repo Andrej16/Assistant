@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Remove Duplicates from Sorted Array</title>
+    <script>
+        var arr = [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4];
+        /**
+         * @param {number[]} nums
+         * @return {number}
+         */
+        var removeDuplicates = function (nums) {
+            var curr = nums[0];
+            var toDel = 0;
+            for (var i = 1; i < nums.length; i++) 
+                if (curr == nums[i]) {
+                    for (var j = i; nums[j] == curr && j < nums.length; j++) 
+                        toDel++;
+                    for (var n = i; n < nums.length - toDel; n++) 
+                        nums[n] = nums[n + toDel];
+                    curr = nums[i];
+                    nums.length -= toDel;
+                    toDel = 0;
+                }
+            return nums.length;
+        }
+        document.write("Input array: ");
+        document.write(arr + "<br />");
+        var newLength = removeDuplicates(arr);
+        document.write("After remove array: ");
+        document.write(arr + "<br />");
+    </script>
+</head>
+<body>
+    <hr style="color:red" />
+    <p>
+        <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array</a>
+    </p>
+</body>
+</html>

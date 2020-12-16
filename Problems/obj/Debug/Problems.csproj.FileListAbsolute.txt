@@ -11,3 +11,4 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Debug\P
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.exe
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csprojAssemblyReference.cache

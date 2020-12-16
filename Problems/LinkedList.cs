@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Problems.RemoveZeroSumSublists
+﻿namespace Problems.RemoveZeroSumSublists
 {
     public class ListNode
     {
@@ -13,7 +7,7 @@ namespace Problems.RemoveZeroSumSublists
         public ListNode(int val = 0, ListNode next = null)
         {
             this.val = val;
-            this.Next = next;
+            Next = next;
         }
     }
     public class LinkedList
@@ -38,5 +32,54 @@ namespace Problems.RemoveZeroSumSublists
             }
             Count++;
         }
+        public static ListNode Merge(ListNode mainList, ListNode newNode)
+        {
+            ListNode head = null;//result
+            ListNode current = null;//result
+            bool newNodeInserted = false;
+            ListNode currentMain = mainList;
+
+            while(currentMain != null)
+            {
+                int newValue = newNode.val;
+                int currValue = currentMain.val;
+                if (!newNodeInserted && newValue <= currValue)
+                {
+                    //вставка первого
+                    if (current is null)
+                    {
+                        head = newNode;
+                        current = newNode;
+                        current.Next = new ListNode(currValue);
+                        current = current.Next;
+                    }
+                    else
+                    {
+                        current.Next = newNode;
+                        current = current.Next;
+                        current.Next = new ListNode(currValue);
+                        current = current.Next;
+                    }
+                    newNodeInserted = true;
+                }
+                else
+                {
+                    //вставка первого
+                    if(current is null)
+                    {
+                        head = new ListNode(currValue);
+                        current = head;
+                    }
+                    else
+                    {
+                        current.Next = new ListNode(currValue);
+                        current = current.Next;
+                    }
+                }
+                currentMain = currentMain.Next;
+            }
+            return head;
+        }
     }
+
 }

@@ -31,8 +31,8 @@ namespace Problems
             //KidsWithCandies();
             //RunningSum();
             //FindMinFibonacciNumbers();
-            RomanToInteger();
-
+            //RomanToInteger();
+            Merge();
             Console.ReadKey();
         }
 
@@ -114,6 +114,28 @@ namespace Problems
             Console.WriteLine("Before:");
             Print(list._head);
             ListNode current = LitCodeProblems.RemoveZeroSumSublists(list._head);
+            Console.WriteLine("After:");
+            Print(current);
+            void Print(ListNode cur)
+            {
+                while (cur != null)
+                {
+                    Console.WriteLine(cur.val);
+                    cur = cur.Next;
+                }
+            }
+        }
+        private static void Merge()
+        {
+            LinkedList list = new LinkedList();
+            list.Add(2);
+            list.Add(4);
+            list.Add(5);
+            list.Add(9);
+            list.Add(10);
+            Console.WriteLine("Before:");
+            Print(list._head);
+            ListNode current = LinkedList.Merge(list._head, new ListNode(7));
             Console.WriteLine("After:");
             Print(current);
             void Print(ListNode cur)

@@ -35,3 +35,4 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debu
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\InvalidPassports.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\WebInteraction.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\WebInteraction.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\InvalidPassports.csprojAssemblyReference.cache

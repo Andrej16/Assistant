@@ -9,3 +9,4 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStru
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Debug\AlgorithmAndDataStruct.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Debug\AlgorithmAndDataStruct.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Debug\AlgorithmAndDataStruct.pdb
+G:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Debug\AlgorithmAndDataStruct.csprojAssemblyReference.cache
