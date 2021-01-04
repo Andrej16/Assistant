@@ -17,7 +17,7 @@ namespace UserInterface.Controllers
         }
         private void TestUnderGroundWaiter()
         {
-            UnderGroundWaiter ugw = new UnderGroundWaiter(MainForm, DBHelper.SelectRows, SetDataSource);
+            UnderGroundWaiter ugw = new UnderGroundWaiter(MainForm, DBHelper.GetZaporishyaStreets, SetDataSource);
             UnderGroundWaiter ugw2 = new UnderGroundWaiter(MainForm, DBHelper.SelectRows2, SetDataSource2);
             UnderGroundWaiter ugw3 = new UnderGroundWaiter(MainForm, DBHelper.SelectRows3, SetDataSource3);
             Thread.Sleep(1000);

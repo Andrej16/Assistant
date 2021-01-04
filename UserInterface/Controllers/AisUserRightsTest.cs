@@ -13,8 +13,6 @@ namespace UserInterface.Controllers
             _userRightsStore = new UserRightsStore();
             this.isDepth = isDepth;
         }
-
-
         public void DoAction()
         {
             DataTable expTable = PrepareTable(isDepth);

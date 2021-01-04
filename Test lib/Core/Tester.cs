@@ -2,14 +2,14 @@
 {
     public class Tester
     {
-        ITestLib tester;
+        public ITestLib Test { get; set; }
         public Tester(ITestLib tl)
         {
-            tester = tl;
+            Test = tl;
         }
         public void DoTest()
         {
-            tester.DoAction();
+            Test.DoAction();
         }
     }
 }

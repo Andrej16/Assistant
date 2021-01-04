@@ -1,0 +1,6 @@
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Release\Problems.exe.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Release\Problems.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Release\Problems.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Release\Problems.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Release\Problems.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Release\Problems.pdb

@@ -1,0 +1,5 @@
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\bin\Release\AlgorithmAndDataStruct.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\bin\Release\AlgorithmAndDataStruct.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Release\AlgorithmAndDataStruct.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Release\AlgorithmAndDataStruct.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AlgorithmAndDataStruct\obj\Release\AlgorithmAndDataStruct.pdb

@@ -1,0 +1,17 @@
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Release\TestLib.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Release\TestLib.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\TestLib.exe.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\TestLib.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\TestLib.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\AlgorithmAndDataStruct.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\Assistant.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\Newtonsoft.Json.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\Oracle.ManagedDataAccess.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\WebInteraction.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\AlgorithmAndDataStruct.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\WebInteraction.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\Assistant.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Release\Assistant.dll.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Release\TestLib.csproj.CopyComplete
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Release\TestLib.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Release\TestLib.pdb

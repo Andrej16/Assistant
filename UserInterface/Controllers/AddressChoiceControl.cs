@@ -1,5 +1,4 @@
-﻿using Assistant;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace UserInterface
 {
@@ -13,9 +12,6 @@ namespace UserInterface
         }
         public void DoAction()
         {
-            UcAddressChoice uc = new UcAddressChoice(inp);
-
-            MainForm.ShowFrame(uc);
 
         }
         private void inp(object arg1, object arg2, object arg3, object arg4, object arg5)

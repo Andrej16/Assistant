@@ -32,8 +32,39 @@ namespace Problems
             //RunningSum();
             //FindMinFibonacciNumbers();
             //RomanToInteger();
-            Merge();
+            //Merge();            
+            //SubArray();
+            //RemoveDuplicates();
+            IsPolindrome();
             Console.ReadKey();
+        }
+
+        private static void IsPolindrome()
+        {
+            string sourse = default;
+            int number = default;
+            while(number != -1)
+            {
+                sourse = Console.ReadLine();
+                number = sourse != "q" ? int.Parse(sourse) : -1;
+
+                if (LitCodeProblems.IsPalindrome(number))
+                    Console.WriteLine("Is polindrome");
+                else
+                    Console.WriteLine("No polindrome");
+            }
+        }
+
+        private static void RemoveDuplicates()
+        {
+            int?[] source = { 0, 0, 2, 2, 1, 1, 1, 5, 3, 3, 4 };
+
+            int newSize = LitCodeProblems.RemoveDuplicates(ref source);
+            Console.WriteLine("New size is {0}", newSize);
+            foreach (var item in source)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         private static void FindMinFibonacciNumbers()
@@ -133,10 +164,16 @@ namespace Problems
             list.Add(5);
             list.Add(9);
             list.Add(10);
-            Console.WriteLine("Before:");
+            LinkedList second = new LinkedList();
+            second.Add(3);
+            second.Add(6);
+            second.Add(8);
+            Console.WriteLine("First list before:");
             Print(list._head);
-            ListNode current = LinkedList.Merge(list._head, new ListNode(7));
-            Console.WriteLine("After:");
+            Console.WriteLine("Second list before:");
+            Print(second._head);
+            ListNode current = LinkedList.Merge(list._head, second._head);
+            Console.WriteLine("Merged result list:");
             Print(current);
             void Print(ListNode cur)
             {
@@ -184,6 +221,12 @@ namespace Problems
             int result = LitCodeProblems.romanToInt(roman);
             Console.WriteLine($"Roman: {roman}");
             Console.WriteLine($"Integer: {result}");
+        }
+        static void SubArray()
+        {
+            int[] input = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+            int result = LitCodeProblems.SubArray(input);
+            Console.WriteLine("Max value - {0}", result);
         }
     }
 }

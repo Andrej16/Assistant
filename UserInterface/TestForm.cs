@@ -1,5 +1,6 @@
 ﻿using System;
 using UserControls;
+using UserInterface.Controllers;
 
 namespace UserInterface
 {
@@ -12,8 +13,11 @@ namespace UserInterface
         }
         private void TestForm_Load(object sender, EventArgs e)
         {
-            TesterCurrent = new Tester(new AsyncATP(this));
+            //TesterCurrent = new Tester(new AsyncATP(this));
+            //TesterCurrent = new Tester(new Bind(this));
+            TesterCurrent = new Tester(new MouseClicker());
             TesterCurrent.DoTest();
+            
         }
     }
 }

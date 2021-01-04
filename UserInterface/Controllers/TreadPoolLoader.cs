@@ -38,7 +38,7 @@ namespace UserInterface.Controllers
         }
         private void Load1(object state)
         {
-            tables[0] = dBHelper.SelectRows();
+            tables[0] = dBHelper.GetZaporishyaStreets();
             MainForm.Invoke((Action)delegate { MainForm.tbOutput.Text += "Loader1 load data!" + Environment.NewLine; });
             (state as AutoResetEvent).Set();
         }

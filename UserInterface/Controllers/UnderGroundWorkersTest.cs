@@ -20,7 +20,7 @@ namespace UserInterface.Controllers
         private void TestunderGroundWorker()
         {
             UnderGroundWorkers workers = new UnderGroundWorkers();
-            workers.Add(MainForm, dBHelper.SelectRows, SetDataSource);
+            workers.Add(MainForm, dBHelper.GetZaporishyaStreets, SetDataSource);
             workers.Add(MainForm, dBHelper.SelectRows2, SetDataSource2);
             workers.Add(MainForm, dBHelper.SelectRows3, SetDataSource3);
             workers.DoLoad();

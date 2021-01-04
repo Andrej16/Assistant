@@ -4,11 +4,11 @@ namespace TestLib
 {
     class Program
     {
-        public static Tester TesterCurrent { get; set; }
+        public static Tester CurrentTester { get; set; }
         static void Main(string[] args)
         {
-            TesterCurrent = new Tester(new XmlTest());
-            TesterCurrent.DoTest();
+            CurrentTester = new Tester(new ParseJson());
+            CurrentTester.DoTest();
             Console.ReadKey();
         }
     }

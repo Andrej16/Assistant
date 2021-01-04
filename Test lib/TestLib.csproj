@@ -38,6 +38,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assistant\bin\Debug\Assistant.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assistant\bin\Debug\Oracle.ManagedDataAccess.dll</HintPath>
@@ -58,6 +59,7 @@
     <Compile Include="Controllers\InvalidPassportsProjectTest.cs" />
     <Compile Include="Controllers\MailTest.cs" />
     <Compile Include="Controllers\OtherTest.cs" />
+    <Compile Include="Controllers\ParseJson.cs" />
     <Compile Include="Controllers\ServiceTest.cs" />
     <Compile Include="Controllers\XmlTest.cs" />
     <Compile Include="Core\ITestLib.cs" />

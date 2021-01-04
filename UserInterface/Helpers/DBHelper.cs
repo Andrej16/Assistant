@@ -1,5 +1,4 @@
 ﻿using Assistant;
-using System;
 using System.Collections.Generic;
 using System.Data;
 
@@ -16,14 +15,11 @@ namespace UserInterface
             ds = ubf.SelectToTable("pack_street.find_street", pars);
             return ds;
         }
-
-        public DataTable SelectRows()
+        public DataTable GetZaporishyaStreets()
         {
-            DataTable ds = new DataTable();
-
             BaseFactory ubf = new BaseFactory(Assistant.DbType.Test);
-            var pars = new Dictionary<string, object>() { { "p_st_ci_id", 1141 } };
-            ds = ubf.SelectToTable("pack_street.find_street", pars);
+            var pars = new Dictionary<string, object>() { { "p_st_ci_id", 1001 } };
+            DataTable ds = ubf.SelectToTable("pack_street.find_street", pars);
             return ds;
         }
         public DataTable SelectRows2()

@@ -333,6 +333,113 @@ namespace Problems
             }
             return sum;
         }
+        /// <summary>
+        /// 53. Maximum Subarray
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        /// <see cref="https://leetcode.com/problems/maximum-subarray/"/>
+        public static int SubArray(int[] nums)
+        {
+            int l = 0, r = nums.Length - 1, ce = 0, currentMain = 0, li = 0, ri = 0, i;
+            bool isEqual = false;
+            int[] sumArray = new int[nums.Length];
+            int max = int.MinValue;
+            for( i = 0; currentMain < nums.Length - 2; i++)
+            {
+                int sum = 0;
+                for (int m = l; m <= r; m++)
+                {
+                    sum += nums[m];
+                }
+                sumArray[i] = sum;
+                if (nums[l] == nums[r])
+                {
+                    isEqual = true;
+                    ce = 1;
+                    for (li = l + 1, ri = r - 1; nums[li] == nums[ri]; li++, ri--, ce++) ;
+                }
+                int lindx = isEqual ? li : l;
+                int rindx = isEqual ? ri : r;
 
+                if (nums[lindx] > nums[rindx])
+                    r -= ce + 1;
+                else
+                    l += ce + 1;
+
+                isEqual = false;
+                currentMain += ce + 1;
+                ce = 0;                
+            }
+            sumArray[i + 1] = nums[l] + nums[r];
+            for (int k = 0; k <= i; k++)
+            {
+                if (sumArray[k] > max)
+                    max = sumArray[k];
+            }
+            return max;
+        }
+        /// <summary>
+        /// 26. Remove Duplicates from Sorted Array (+!Not sorted)
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/remove-duplicates-from-sorted-array/"/>
+        public static int RemoveDuplicates(ref int?[] nums)
+        {
+            int? current;
+            int count = 0;
+           
+            for (int i = 0; i < nums.Length; i++)
+            {
+                current = nums[i];
+                if (current is null)
+                    continue;
+                for (int ii = i + 1; ii < nums.Length; ii++)
+                    if(current == nums[ii])
+                    { 
+                        nums[ii] = null;
+                        count++;
+                    }
+            }
+
+            int customLength = nums.Length;
+            int chainNull, ni;
+            for (int i = 0; i < customLength; i++)
+            {
+                current = nums[i];
+                if(current is null)
+                {
+                    for (ni = i; nums[ni] is null; ni++) 
+                        ;
+                    chainNull = ni - i;
+                    for (int mi = i; mi < nums.Length - chainNull; mi++)
+                    {
+                        int next = mi + chainNull;
+                        nums[mi] = nums[next];
+                    }
+                    customLength -= chainNull;
+                }
+            }
+            Array.Resize(ref nums, customLength);
+            return nums.Length;
+        }
+        /// <summary>
+        /// 9. Palindrome Number
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/palindrome-number/"/>
+        public static bool IsPalindrome(int n)
+        {
+            if (n < 0)
+                return false;
+            int current = n, lastInteg, delimeter = 10, reversed = default;
+
+            while(current > 0)
+            {
+                lastInteg = current % delimeter;
+                current -= lastInteg;
+                current /= delimeter;
+                reversed = reversed * delimeter + lastInteg;
+            }
+            return reversed == n;
+        }
     }
 }

@@ -15,3 +15,12 @@ G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие про
 G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Assistant\obj\Release\Assistant.csproj.CopyComplete
 G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Assistant\obj\Release\Assistant.dll
 G:\OneDrive\Документы\Visual Studio 2015\Projects\Рабочие программы\Assistant\Assistant\obj\Release\Assistant.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Release\Assistant.dll.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Release\Assistant.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Release\Assistant.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\bin\Release\Newtonsoft.Json.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Release\Assistant.csproj.ResolveComReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Release\Assistant.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Release\Assistant.csproj.CopyComplete
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Release\Assistant.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Release\Assistant.pdb

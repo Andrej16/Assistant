@@ -10,13 +10,6 @@ G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\AisTools\obj\Deb
 G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.ResolveComReference.cache
 G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
 G:\OneDrive\.NET Framework projects\Ais\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.dll
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.pdb
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csprojAssemblyReference.cache
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.ResolveComReference.cache
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.ResolveComReference.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.dll
@@ -26,3 +19,12 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\A
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\AisTools.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.ResolveComReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CopyComplete
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb

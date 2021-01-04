@@ -8,3 +8,13 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdat
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.exe
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\bin\Debug\MtsbuDictionaryUpdater.exe.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\bin\Debug\MtsbuDictionaryUpdater.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\bin\Debug\MtsbuDictionaryUpdater.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csproj.CoreCompileInputs.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csproj.CopyComplete
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.exe
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.pdb

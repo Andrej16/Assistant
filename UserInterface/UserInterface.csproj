@@ -33,11 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assistant\bin\Debug\Oracle.ManagedDataAccess.dll</HintPath>
@@ -61,11 +56,14 @@
     <Compile Include="Controllers\AddressChoiceControl.cs" />
     <Compile Include="Controllers\AisUserRightsTest.cs" />
     <Compile Include="Controllers\AsyncATP.cs" />
+    <Compile Include="Controllers\Bind.cs" />
+    <Compile Include="Controllers\MouseClicker.cs" />
     <Compile Include="Controllers\ThreadindLoader.cs" />
     <Compile Include="Controllers\TreadPoolLoader.cs" />
     <Compile Include="Controllers\UnderGroundWaiterTest.cs" />
     <Compile Include="Controllers\UnderGroundWorkersTest.cs" />
     <Compile Include="Core\ControllerBase.cs" />
+    <Compile Include="Core\Enums.cs" />
     <Compile Include="Core\ITestLib.cs" />
     <Compile Include="Core\Tester.cs" />
     <Compile Include="Helpers\DBHelper.cs" />
@@ -83,7 +81,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="ServiceInstaller.resx">
       <DependentUpon>ServiceInstaller.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AisTools\AisTools.csproj">
-      <Project>{5B78F2C3-2364-435B-ADB3-F0EDD1DFE8F8}</Project>
+      <Project>{5b78f2c3-2364-435b-adb3-f0edd1dfe8f8}</Project>
       <Name>AisTools</Name>
     </ProjectReference>
     <ProjectReference Include="..\Assistant\Assistant.csproj">
