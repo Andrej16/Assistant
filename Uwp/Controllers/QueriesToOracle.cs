@@ -5,11 +5,20 @@ using Uwp.Model;
 
 namespace Uwp.Controllers
 {
+    /// <summary>
+    /// Oracle, doesn't work on UWP - https://community.oracle.com/tech/developers/discussion/4479820/windows-uwp-compatibility
+    /// </summary>
     public class QueriesToOracle : IReader
     {
+        public MainPage Page { get; set; }
+
+        public QueriesToOracle(MainPage page)
+        {
+            Page = page;
+        }
         public void DoRead()
         {
-            //FilterByName();
+            LoadIdentRisk();
         }
         private void LoadIdentRisk()
         {

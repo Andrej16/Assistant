@@ -13,7 +13,7 @@ namespace Uwp.Model
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:DefaultSchema", "INSURADM");
-            //modelBuilder.ApplyConfiguration(new IdentRiskConfiguration());
+            modelBuilder.ApplyConfiguration(new IdentRiskConfiguration());
         }
     }
     public class IdentRisk

@@ -16,7 +16,7 @@
             <RowDefinition/>
             <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
-        <Button x:ConnectionId='3' x:Name="btnSubmit" Content="Modify package" Margin="64,223,0,0" VerticalAlignment="Top" Height="56" Width="361"                        />
+        <Button x:ConnectionId='3' x:Name="btnSubmit" Content="Submit" Margin="64,223,0,0" VerticalAlignment="Top" Height="56" Width="361"                        />
         <TextBlock HorizontalAlignment="Left" Margin="441,30,0,0" Text="Package text" TextWrapping="Wrap" VerticalAlignment="Top" Width="361" Height="19"/>
         <TextBlock HorizontalAlignment="Left" Margin="64,34,0,0" Text="Find text" TextWrapping="Wrap" VerticalAlignment="Top" Width="361" Height="19"/>
         <TextBox x:ConnectionId='4' x:Name="tbFindText" HorizontalAlignment="Left" Margin="64,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="361" Height="32"/>

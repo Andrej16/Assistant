@@ -3,10 +3,8 @@
     public class Store
     {
         public IReader DataReader { get; set; }
-        public MainPage Page { get; set; }
-        public Store(MainPage page, IReader reader)
+        public Store(IReader reader)
         {
-            Page = page;
             DataReader = reader;
         }
         public void Load()

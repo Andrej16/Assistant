@@ -32,9 +32,9 @@ namespace Uwp
         public MainPage()
         {
             this.InitializeComponent();
-            Store = new Store(this, new QueriesToOracle());
+            QueriesToOracle oracle = new QueriesToOracle(this);
+            Store = new Store(oracle);
         }
-
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             TesterCurrent = new Tester(new PackageManager(this));
@@ -42,7 +42,8 @@ namespace Uwp
         }
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            TesterCurrent.DoTest();
+            //TesterCurrent.DoTest();
+            Store.Load();
         }
     }
 }
