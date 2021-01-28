@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Controllers\BaseFactoryTest.cs" />
     <Compile Include="Controllers\BinaryTreeTest.cs" />
+    <Compile Include="Controllers\FuturesTest.cs" />
     <Compile Include="Controllers\InvalidPassportsProjectTest.cs" />
     <Compile Include="Controllers\MailTest.cs" />
     <Compile Include="Controllers\OtherTest.cs" />

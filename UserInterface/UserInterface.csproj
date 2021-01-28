@@ -58,6 +58,8 @@
     <Compile Include="Controllers\AsyncATP.cs" />
     <Compile Include="Controllers\Bind.cs" />
     <Compile Include="Controllers\MouseClicker.cs" />
+    <Compile Include="Controllers\PackageManager.cs" />
+    <Compile Include="Controllers\ParallelLibraryTPL.cs" />
     <Compile Include="Controllers\ThreadindLoader.cs" />
     <Compile Include="Controllers\TreadPoolLoader.cs" />
     <Compile Include="Controllers\UnderGroundWaiterTest.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="Core\ITestLib.cs" />
     <Compile Include="Core\Tester.cs" />
     <Compile Include="Helpers\DBHelper.cs" />
+    <Compile Include="Helpers\StateArgs.cs" />
     <Compile Include="ServiceInstaller.cs">
       <SubType>Form</SubType>
     </Compile>

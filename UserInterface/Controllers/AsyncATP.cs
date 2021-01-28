@@ -1,21 +1,12 @@
 ﻿using System;
 using System.Data;
 using System.Runtime.Remoting.Messaging;
-using System.Windows.Forms;
+using System.Threading;
+using System.Threading.Tasks;
+using UserInterface.Helpers;
 
 namespace UserInterface
 {
-    public class StateArgs
-    {
-        public DataGridView View { get; set; }
-        public DataTable Data { get; set; }
-        public Action<object> SetAction { get; set; }
-        public StateArgs(DataGridView view, Action<object> action)
-        {
-            View = view;
-            SetAction = action;
-        }
-    }
     public class AsyncATP : ITestLib
     {
         public DBHelper DBHelper { get; set; }
@@ -26,6 +17,36 @@ namespace UserInterface
             DBHelper = new DBHelper();
         }
         public void DoAction()
+        {
+            //CreateAsync();
+            WinFormsParallel(); //Хрень 
+        }
+        
+        private void WinFormsParallel()
+        {
+            Task.Factory.StartNew(() => { Form.BeginInvoke(new Action(() => { PrintOne(); })); }); 
+            Form.BeginInvoke(new Action(() => { PrintTwo(); }));
+        }
+        private void PrintOne()
+        {
+            for (int i = 0; i < 1000; i++)
+            {
+                //Thread.Sleep(100);
+                Form.tbFirst.Text += "1";
+            }
+
+        }
+        private void PrintTwo()
+        {
+            for (int i = 0; i < 1000; i++)
+            {
+                //Thread.Sleep(100);
+                Form.tbSecond.Text += "2";
+            }
+
+        }
+
+        public void CreateAsync()
         {
             int cityId = 1141;
             Func<object, object> funcFind = new Func<object, object>(DBHelper.Find);
@@ -44,7 +65,7 @@ namespace UserInterface
             StateArgs args = (StateArgs)asyncResult.AsyncState;
 
             args.Data = func.EndInvoke(asyncResult) as DataTable;
-
+            //Всегда выполняется в основном потоке, CurrentThread.ManagedThreadId = 1
             Form.Invoke(args.SetAction, args);
 
         }
@@ -56,15 +77,26 @@ namespace UserInterface
             StateArgs args = (StateArgs)asyncResult.AsyncState;
 
             args.Data = func.EndInvoke(asyncResult) as DataTable;
-
+            //Всегда выполняется в основном потоке, CurrentThread.ManagedThreadId = 1
             Form.Invoke(args.SetAction, args);
         }
 
         private void SetDataSource(object state)
         {
-            StateArgs args = state as StateArgs;           
+            StateArgs args = state as StateArgs;
             args.View.AutoGenerateColumns = true;
             args.View.DataSource = args.Data;
+            Form.tbOutput.Text += $"SetDataSource, ViewName: {args.View.Name}, ThreadId:{Thread.CurrentThread.ManagedThreadId}\r\n";
         }
+        //private void UcSmsHistoryOnLoad(object sender, EventArgs e)
+        //{
+        //    Task load = Task.Run(() =>
+        //    {
+        //        DataTable table = GetDataSourse(RefId);
+        //        Invoke(new Action(delegate { IdentPeps.BindGrid(gcPep); }));
+        //        Invoke(new Action(() => { gcMain.DataSource = table; }));
+        //    });
+        //}
+
     }
 }

@@ -15,7 +15,8 @@ namespace UserInterface
         {
             //TesterCurrent = new Tester(new AsyncATP(this));
             //TesterCurrent = new Tester(new Bind(this));
-            TesterCurrent = new Tester(new MouseClicker());
+            //TesterCurrent = new Tester(new MouseClicker());
+            TesterCurrent = new Tester(new ParallelLibraryTPL(this));
             TesterCurrent.DoTest();
             
         }

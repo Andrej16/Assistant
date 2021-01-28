@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Threading.Tasks;
 
 namespace Assistant
 {
@@ -137,10 +138,15 @@ namespace Assistant
         /// Call after PrepareCommand!
         /// </summary>
         /// <param name="parameters">Parameters collection</param>
-        private void SetParams(Dictionary<string, object> parameters)
+        [Obsolete]
+        private void _SetParams(Dictionary<string, object> parameters)
         {
             foreach(var p in parameters)
                     command.Parameters[p.Key].Value = p.Value;
+        }
+        private void SetParams(Dictionary<string, object> parameters)
+        {
+            Parallel.ForEach(parameters, p => command.Parameters[p.Key].Value = p.Value);
         }
         #endregion
         #region Public methods
