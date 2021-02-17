@@ -58,6 +58,7 @@
     <Compile Include="Controllers\BinaryTreeTest.cs" />
     <Compile Include="Controllers\FuturesTest.cs" />
     <Compile Include="Controllers\InvalidPassportsProjectTest.cs" />
+    <Compile Include="Controllers\LlPackageManager.cs" />
     <Compile Include="Controllers\MailTest.cs" />
     <Compile Include="Controllers\OtherTest.cs" />
     <Compile Include="Controllers\ParseJson.cs" />

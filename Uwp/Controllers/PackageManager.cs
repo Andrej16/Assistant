@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Uwp.Core;
 
 namespace Uwp.Controllers
@@ -20,8 +19,8 @@ namespace Uwp.Controllers
             string packageText = Page.PackageText;
             string findText = Page.FindText;
             //var result = WholeWordPosition("function GetDic(idiscriminator identifydictionary.discriminator%type) return sys_refcursor; ", "discriminator", 0);
-            var result = WholeWordPosition(packageText, findText);
-            Page.Output = "Start index: " + result.ToString();
+            //var result = WholeWordPosition(packageText, findText);
+            //Page.Output = "Start index: " + result.ToString();
         }
         private string IncludeFieldInPackageProcedures()
         {
@@ -43,7 +42,7 @@ namespace Uwp.Controllers
 
             while (ti < text.Length)
             {
-                
+
                 if (si == 0 && !isFirstSpace)
                 {
                     if (text[ti] == '\u0020' //пробел
@@ -57,11 +56,11 @@ namespace Uwp.Controllers
                 {
                     if (text[ti] == search[si])
                         si++;
-                    else 
+                    else
                     {
                         si = 0;
                         isFirstSpace = false;
-                    }                        
+                    }
                 }
                 else if (si == search.Length)
                 {

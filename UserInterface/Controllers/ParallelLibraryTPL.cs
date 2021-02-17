@@ -28,15 +28,15 @@ namespace UserInterface.Controllers
 
             Task t1 = Task.Run(() =>
             {
-                //Thread.Sleep(10000);
+                Thread.Sleep(10000);
                 DataTable source = DBHelper.Find(cityId);
                 Action<DataGridView, object> action = new Action<DataGridView, object>(SetDataSource);
                 Form.BeginInvoke(action, Form.dgvThreadTest, source);
+                         
             });
             Form.tbOutput.Text += "Ожидание\r\n";
             t1.Wait();
             Form.tbOutput.Text += "Загрузка завершена\r\n";
-
         }
 
         private void CreateTask()

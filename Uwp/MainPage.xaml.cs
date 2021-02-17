@@ -42,8 +42,8 @@ namespace Uwp
         }
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            //TesterCurrent.DoTest();
-            Store.Load();
+            TesterCurrent.DoTest();
+            //Store.Load();
         }
     }
 }

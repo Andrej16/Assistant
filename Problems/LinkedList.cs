@@ -1,5 +1,8 @@
-﻿namespace Problems.RemoveZeroSumSublists
+﻿using System;
+
+namespace Problems.RemoveZeroSumSublists
 {
+    [Obsolete("Use algorithm&datastruct.LinkedList")]
     public class ListNode
     {
         public int val;

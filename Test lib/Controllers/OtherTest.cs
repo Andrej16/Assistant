@@ -9,7 +9,13 @@ namespace TestLib.Controllers
     {
         public void DoAction()
         {
-            throw new NotImplementedException();
+            //int n = 123456;
+            //int result = Polindrome(n);
+            //Console.WriteLine($"Polindrome of {n} is {result}");
+            string input = "cdmag";
+            string result = Reverse(input);
+            Console.WriteLine($"Reverse of {input} is {result}");
+
         }
         private static void TestRound()
         {
@@ -55,7 +61,29 @@ namespace TestLib.Controllers
 
             return header + body + footer;
         }
-
+        private int Polindrome(int n)
+        {
+            int temp, result = 0;
+            while(n > 0)
+            {
+                temp = n % 10;
+                result *= 10;
+                result += temp;
+                n = (n - temp) / 10;
+            }
+            return result;
+        }
+        private string Reverse(string input)
+        {
+            char[] iarr = input.ToCharArray();
+            for (int s = 0, e = iarr.Length - 1; s < e; s++, e--)
+            {
+                char hold = iarr[s];
+                iarr[s] = iarr[e];
+                iarr[e] = hold;
+            }
+            return new string(iarr);
+        }
     }
 
 }

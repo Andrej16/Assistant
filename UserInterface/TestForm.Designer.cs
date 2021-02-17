@@ -100,7 +100,7 @@
             this.tcMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcMain.Location = new System.Drawing.Point(0, 0);
             this.tcMain.Name = "tcMain";
-            this.tcMain.SelectedIndex = 2;
+            this.tcMain.SelectedIndex = 0;
             this.tcMain.Size = new System.Drawing.Size(771, 735);
             this.tcMain.TabIndex = 5;
             // 

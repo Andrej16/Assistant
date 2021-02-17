@@ -30,13 +30,13 @@
     <AppXManifest Include="G:\OneDrive\.NET Framework projects\Work programs\Assistant\Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-28T10:11:05.381</Modified>
+      <Modified>2021-02-03T09:38:02.980</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\OneDrive\.NET Framework projects\Work programs\Assistant\Uwp\bin\x86\Debug\Uwp.exe">
       <PackagePath>entrypoint\Uwp.exe</PackagePath>
-      <Modified>2021-01-28T10:11:04.156</Modified>
+      <Modified>2021-02-03T09:38:02.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ashilin\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -178,11 +178,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\OneDrive\.NET Framework projects\Work programs\Assistant\Uwp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-28T10:11:04.069</Modified>
+      <Modified>2021-02-03T09:25:26.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\OneDrive\.NET Framework projects\Work programs\Assistant\Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-28T10:11:04.069</Modified>
+      <Modified>2021-02-03T09:25:26.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -190,11 +190,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\OneDrive\.NET Framework projects\Work programs\Assistant\Uwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-28T10:11:04.784</Modified>
+      <Modified>2021-02-03T09:38:02.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\OneDrive\.NET Framework projects\Work programs\Assistant\Uwp\bin\x86\Debug\Core\Uwp.exe">
       <PackagePath>Uwp.exe</PackagePath>
-      <Modified>2021-01-28T10:11:05.369</Modified>
+      <Modified>2021-02-03T09:38:02.969</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

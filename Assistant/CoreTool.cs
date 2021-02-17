@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Assistant
 {
@@ -47,15 +44,6 @@ namespace Assistant
         {
             var memberInfo = enumVal.GetType().GetMember(enumVal.ToString());
             return memberInfo[0].GetCustomAttributes(typeof(TAttribute), false).OfType<TAttribute>().FirstOrDefault();
-        }
-        public static void MemoryClean(object sender)
-        {
-            GC.Collect();
-            Finalize(sender);
-        }
-        public static void Finalize(object sender)
-        {
-            GC.SuppressFinalize(sender);
         }
     }
 }

@@ -58,7 +58,6 @@
     <Compile Include="Controllers\AsyncATP.cs" />
     <Compile Include="Controllers\Bind.cs" />
     <Compile Include="Controllers\MouseClicker.cs" />
-    <Compile Include="Controllers\PackageManager.cs" />
     <Compile Include="Controllers\ParallelLibraryTPL.cs" />
     <Compile Include="Controllers\ThreadindLoader.cs" />
     <Compile Include="Controllers\TreadPoolLoader.cs" />
