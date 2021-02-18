@@ -2,7 +2,7 @@
 
 namespace AlgorithmAndDataStruct
 {
-    class BinaryTreeNode<TNode> : IComparable<TNode> where TNode : IComparable<TNode>
+    public class BinaryTreeNode<TNode> : IComparable<TNode> where TNode : IComparable<TNode>
     {
         public BinaryTreeNode(TNode value)
         {

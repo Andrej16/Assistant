@@ -6,7 +6,8 @@ namespace TestLib
     {
         public void DoAction()
         {
-            TestBinaryTree();
+            //TestBinaryTree();
+            CompareBinaryTree();
         }
         private void TestBinaryTree()
         {
@@ -44,6 +45,25 @@ namespace TestLib
             //    Console.WriteLine(n);
             //}
         }
+        private void CompareBinaryTree()
+        {
+            BinaryTree<int> p = new BinaryTree<int>();
 
+            p.Add(1);    //                        1
+            p.Add(2);    //                      /   \
+            p.Add(3);    //                     2     3 
+
+            BinaryTree<int> q = new BinaryTree<int>();
+
+            q.Add(1);    //                        1
+            q.Add(2);    //                      /   \
+            q.Add(3);    //                     2     3 
+
+            bool isEquals = BinaryTree<int>.IsSameTree(p.Head, q.Head);
+            if(isEquals)
+                System.Console.WriteLine($"Trees is equals");
+            else
+                System.Console.WriteLine("Trees is not equals");
+        }
     }
 }

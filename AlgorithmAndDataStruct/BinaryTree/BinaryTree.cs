@@ -35,17 +35,17 @@ namespace AlgorithmAndDataStruct
     /// </example>
     public class BinaryTree<T> : IEnumerable<T> where T : IComparable<T>
     {
-        private BinaryTreeNode<T> _head;
+        public BinaryTreeNode<T> Head { get; set; }
         public int Count { get; private set; }
         #region Add
         public void Add(T value)
         {
             // Первый случай: дерево пустое     
 
-            if (_head == null)
+            if (Head == null)
             {
                 BinaryTreeNode<T> newNode = new BinaryTreeNode<T>(value);
-                _head = newNode;
+                Head = newNode;
 
             }
 
@@ -54,7 +54,7 @@ namespace AlgorithmAndDataStruct
 
             else
             {
-                AddTo(_head, value);
+                AddTo(Head, value);
             }
             Count++;
         }
@@ -110,7 +110,7 @@ namespace AlgorithmAndDataStruct
         private BinaryTreeNode<T> FindWithParent(T value, out BinaryTreeNode<T> parent)
         {
             // Поиск значения в дереве.     
-            BinaryTreeNode<T> current = _head;
+            BinaryTreeNode<T> current = Head;
             parent = null;
 
             while (current != null)
@@ -140,7 +140,7 @@ namespace AlgorithmAndDataStruct
         #region InOrder
         public void InOrderTraversal()
         {
-            InOrderTraversal(_head);
+            InOrderTraversal(Head);
         }
         private void InOrderTraversal(BinaryTreeNode<T> node)
         {
@@ -156,7 +156,7 @@ namespace AlgorithmAndDataStruct
         #region PostOrder
         public void PostOrderTraversal()
         {
-            PostOrderTraversal(_head);
+            PostOrderTraversal(Head);
         }
         private void PostOrderTraversal(BinaryTreeNode<T> node)
         {
@@ -172,7 +172,7 @@ namespace AlgorithmAndDataStruct
         #region PreOrder
         public void PreOrderTraversal()
         {
-            PreOrderTraversal(_head);
+            PreOrderTraversal(Head);
         }
         private void PreOrderTraversal(BinaryTreeNode<T> node)
         {
@@ -188,7 +188,7 @@ namespace AlgorithmAndDataStruct
         #region Iterative traversal
         public void IterativeTraversal()
         {
-            IterativeTraversal(_head);
+            IterativeTraversal(Head);
         }
         private void IterativeTraversal(BinaryTreeNode<T> head)
         {
@@ -246,7 +246,7 @@ namespace AlgorithmAndDataStruct
         //Output: 8 5 12 3 7 10 15 1 71
         public void IterativeQueueTraversal()
         {
-            IterativeQueueTraversal(_head);
+            IterativeQueueTraversal(Head);
         }
         private void IterativeQueueTraversal(BinaryTreeNode<T> head)
         {
@@ -278,7 +278,7 @@ namespace AlgorithmAndDataStruct
         //Output: 5 3 7 1 8 12 10 15 71
         public void IterativeQueueInorderTraversal()
         {
-            IterativeQueueInorderTraversal(_head);
+            IterativeQueueInorderTraversal(Head);
         }
         private void IterativeQueueInorderTraversal(BinaryTreeNode<T> head)
         {
@@ -324,18 +324,18 @@ namespace AlgorithmAndDataStruct
         }
         public IEnumerator<T> GetEnumerator()
         {
-            return new BinaryTreeEnum<T>(_head);
+            return new BinaryTreeEnum<T>(Head);
         }
         #endregion
         public void Insert(T value)
         {
-            TreeInsertRecursive(_head, new BinaryTreeNode<T>(value));
+            TreeInsertRecursive(Head, new BinaryTreeNode<T>(value));
         }
         private void TreeInsertRecursive(BinaryTreeNode<T> current, BinaryTreeNode<T> newNode)
         {
             if(current is null)
             {
-                _head ??= newNode;
+                Head ??= newNode;
                 Count++;
                 return;
             }
@@ -352,6 +352,32 @@ namespace AlgorithmAndDataStruct
                 current.Right ??= newNode;
                 current.Right ??= current;
             }
+        }
+        /// <summary>
+        /// LeetCode. Сравнивает два дерева на идентичность структуры и значений
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/same-tree/"/>
+        public static bool IsSameTree(BinaryTreeNode<int> p, BinaryTreeNode<int> q)
+        {
+            if (p.Left != null && q.Left is null)
+                return false;
+            if (p.Left is null && q.Left != null)
+                return false;
+            if (p.Left != null && q.Left != null)
+            {
+                if (!IsSameTree(p.Left, q.Left))
+                    return false;
+            }
+            if (p.Right != null && q.Right is null)
+                return false;
+            if (p.Right is null && q.Right != null)
+                return false;
+            if (p.Right != null && q.Right != null)
+            {
+                if (!IsSameTree(p.Right, q.Right))
+                    return false;
+            }
+            return p.Value == q.Value;
         }
     }
 }

@@ -56,6 +56,8 @@
   <ItemGroup>
     <Compile Include="Controllers\BaseFactoryTest.cs" />
     <Compile Include="Controllers\BinaryTreeTest.cs" />
+    <Compile Include="Controllers\CharRepeat.cs" />
+    <Compile Include="Controllers\Fibbonachi.cs" />
     <Compile Include="Controllers\FuturesTest.cs" />
     <Compile Include="Controllers\InvalidPassportsProjectTest.cs" />
     <Compile Include="Controllers\LlPackageManager.cs" />
@@ -63,6 +65,7 @@
     <Compile Include="Controllers\OtherTest.cs" />
     <Compile Include="Controllers\ParseJson.cs" />
     <Compile Include="Controllers\ServiceTest.cs" />
+    <Compile Include="Controllers\UncnownTask.cs" />
     <Compile Include="Controllers\XmlTest.cs" />
     <Compile Include="Core\ITestLib.cs" />
     <Compile Include="Core\Tester.cs" />
