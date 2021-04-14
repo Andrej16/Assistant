@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace Problems
 {
@@ -76,7 +77,7 @@ namespace Problems
         /// 137. Single Number II
         /// </summary>
         /// <see cref="https://leetcode.com/problems/single-number-ii/"/>
-        public static int SingleNumber(int[] nums)
+        public static int SingleNumber2(int[] nums)
         {
             int[] indHolder = new int[1000];
 
@@ -440,6 +441,87 @@ namespace Problems
                 reversed = reversed * delimeter + lastInteg;
             }
             return reversed == n;
+        }
+        public static int SingleNumber(int[] nums)
+        {
+            for (int i = 0; i < nums.Length; i++)
+            {
+                bool hasDuplicate = false;
+                for (int j = 0; j < nums.Length; j++)
+                {
+                    if (i == j)
+                        continue;
+                    if (nums[i] == nums[j])
+                    {
+                        hasDuplicate = true;
+                        break;
+                    }
+                        
+                }
+                if (!hasDuplicate)
+                    return nums[i];
+            }
+            return -1;
+        }
+        /// <summary>
+        /// 14. Longest Common Prefix
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/longest-common-prefix/"/>
+        public static string LongestCommonPrefix(string[] strs)
+        {
+            bool isExists = true;
+            char[] current = strs[0].ToCharArray();
+            char[] prefix = new char[200];
+            Action<int> action = (i) => prefix[i] = ' ';
+            Parallel.For(0, prefix.Length, action);
+            for (int inx = 0; inx < current.Length; inx++)
+            {
+                char c = current[inx];
+                for (int j = 1; j < strs.Length; j++)
+                {
+                    string s = strs[j];
+                    if(s[inx] != c)
+                    {
+                        isExists = false;
+                        break;
+                    }
+                }
+                if (isExists)
+                {
+                    prefix[inx] = c;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            return new string(prefix);
+        }
+        /// <summary>
+        /// 172. Factorial Trailing Zeroes
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/factorial-trailing-zeroes/"/>
+        public static int TrailingZeroes(int n)
+        {
+            int zeroes = 0;
+            
+            int factorial = 1;
+
+            for (int i = 1; i <= n; i++)
+            {
+                factorial *= i;
+            }
+            int divBalance;
+
+            do
+            {
+                divBalance = factorial % 10;
+                factorial /= 10;
+                if (divBalance == 0)
+                    zeroes++;
+            } while (divBalance == 0);
+            return zeroes;
         }
     }
 }

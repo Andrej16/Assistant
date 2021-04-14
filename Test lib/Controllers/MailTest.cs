@@ -1,5 +1,6 @@
 ﻿using Assistant;
 using System;
+using Assistant.Core;
 
 namespace TestLib.Controllers
 {

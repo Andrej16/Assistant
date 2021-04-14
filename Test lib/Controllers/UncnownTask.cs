@@ -1,4 +1,5 @@
 ﻿using System;
+using Assistant.Core;
 
 namespace TestLib.Controllers.Interview
 {

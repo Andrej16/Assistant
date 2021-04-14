@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
+using Assistant.Core;
 
 namespace TestLib
 {

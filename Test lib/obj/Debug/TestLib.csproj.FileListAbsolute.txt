@@ -26,9 +26,9 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\N
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Oracle.ManagedDataAccess.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.pdb
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\Assistant.dll.config
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\bin\Debug\WebInteraction.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.pdb

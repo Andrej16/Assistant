@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Location</title>
+    <script>
+        function print() {
+            get("output").innerHTML = '';
+            var query = location.search.slice(1);
+            var pairs = query.split('&');
+            let sum = 0;
+            for (let pair of pairs) {
+                let pos = pair.indexOf('=');
+                if(pos == -1)
+                    continue;
+                let text = pair.slice(pos + 1);
+                let value = parseInt(text);
+                get("output").innerHTML += text + ' + ';
+                sum += value; 
+            }
+            get("output").innerHTML += '= ' + sum;
+        }
+        var get = function (id) {
+            return document.getElementById(id);
+        }
+    </script>
+</head>
+<body>
+    <hr style="color:red" />
+    <p id="output"></p>
+    <p>
+        Разработайте страницу, которая будет выводить сумму двух GET параметров a и b. Например, если на страницу заходят по адресу, page.html?a=100&b=200, то в теле страницы должно отображаться сообщение «сумма 300».
+    </p>
+    <input type="button" name="name" value="Compute sum" onclick="print()" />
+</body>
+</html>

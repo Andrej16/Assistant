@@ -89,15 +89,15 @@ namespace InvalidPassports
 
             try
             {
-                var requestMessage = new HttpRequestMessage(HttpMethod.Get, hostUrl);
+                HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, hostUrl);
 
                 requestMessage.Content = new StringContent(content);
 
-                var response = await client.SendAsync(requestMessage);
+                HttpResponseMessage response = await client.SendAsync(requestMessage);
 
                 response.EnsureSuccessStatusCode();
 
-                var responseString = await response.Content.ReadAsStringAsync();
+                string responseString = await response.Content.ReadAsStringAsync();
                 output = JsonConvert.DeserializeObject<M>(responseString);
             }
             catch (WebException e)

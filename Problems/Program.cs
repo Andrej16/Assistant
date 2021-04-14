@@ -1,6 +1,5 @@
 ﻿using Problems.RemoveZeroSumSublists;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
@@ -35,15 +34,33 @@ namespace Problems
             //Merge();            
             //SubArray();
             //RemoveDuplicates();
-            IsPolindrome();
+            //IsPolindrome();
+            //SingleNumber();
+            //LongestCommonPrefix();
+            TrailingZeroes();
             Console.ReadKey();
+        }
+
+        private static void TrailingZeroes()
+        {
+            string sourse = Console.ReadLine(); ;
+            int number = sourse != "q" ? int.Parse(sourse) : -1; ;
+            while (number != -1)
+            {
+
+                int zeroes = LitCodeProblems.TrailingZeroes(number);
+                Console.WriteLine(zeroes);
+                sourse = Console.ReadLine();
+                number = sourse != "q" ? int.Parse(sourse) : -1;
+
+            }
         }
 
         private static void IsPolindrome()
         {
             string sourse = default;
             int number = default;
-            while(number != -1)
+            while (number != -1)
             {
                 sourse = Console.ReadLine();
                 number = sourse != "q" ? int.Parse(sourse) : -1;
@@ -100,7 +117,7 @@ namespace Problems
             int[] falseResult = { 3, 4, 2, 3 }; //false
             int[] trueResult = { 4, 2, 3 };  //true
             int[] allEqual = { 1, 1, 1 }; //true
-            if(LitCodeProblems.CheckPossibility2(allEqual))
+            if (LitCodeProblems.CheckPossibility2(allEqual))
                 Console.WriteLine("Result is true!");
             else
                 Console.WriteLine("Result is false!");
@@ -115,7 +132,7 @@ namespace Problems
             {
                 Thread.Sleep(1000);
                 Console.Write(".");
-            }               
+            }
             mut.ReleaseMutex();
         }
 
@@ -127,10 +144,10 @@ namespace Problems
             Console.WriteLine("The MINIMUM change required to make s a strong password ==> {0}", min);
         }
 
-        private static void SingleNumber()
+        private static void SingleNumber2()
         {
             int[] input = { 0, 1, 0, 1, 0, 1, 99 };
-            int res = LitCodeProblems.SingleNumber(input);
+            int res = LitCodeProblems.SingleNumber2(input);
             Console.WriteLine(res);
         }
 
@@ -199,7 +216,7 @@ namespace Problems
         {
             int nn = 5;
             int[] result = LitCodeProblems.SumZero(nn);
-            
+
             foreach (var item in result)
                 Console.WriteLine(item);
         }
@@ -227,6 +244,18 @@ namespace Problems
             int[] input = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
             int result = LitCodeProblems.SubArray(input);
             Console.WriteLine("Max value - {0}", result);
+        }
+        private static void SingleNumber()
+        {
+            int[] input = { 4, 1, 2, 1, 2 };
+            int res = LitCodeProblems.SingleNumber(input);
+            Console.WriteLine(res);
+        }
+        private static void LongestCommonPrefix()
+        {
+            string[] array = { "flower", "flow", "floight" };
+            string prefix = LitCodeProblems.LongestCommonPrefix(array);
+            Console.WriteLine(prefix);
         }
     }
 }

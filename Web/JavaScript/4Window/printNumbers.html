@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Вывод каждую секунду</title>
+    <script>        
+        window.onload = function () {
+            var counter = 0;
+            var intervalHandler; 
+            printNumbers(5, 15);
+            /*function printNumbers (from, to) {
+                counter = from;
+                intervalHandler = setInterval(writer, 1000, to); 
+
+                function writer(end) {
+                    if (counter == end)
+                        clearInterval(intervalHandler);
+                    get("output").innerHTML += counter++ + ', ';
+                }
+            }*/
+            
+            function printNumbers(from, to) {
+                counter = from;
+                setTimeout(timeOutRecursive, 1000, to);
+            }
+            function timeOutRecursive(end) {
+                if (counter > end)
+                    return;
+                get("output").innerHTML += counter++ + ', ';
+                setTimeout(timeOutRecursive, 1000, end);
+            }            
+        }
+        var get = function (id) {
+            return document.getElementById(id);
+        }
+    </script>
+</head>
+<body>
+    <hr style="color:red" />
+    <p>
+        <a href="https://learn.javascript.ru/settimeout-setinterval#vyvod-kazhduyu-sekundu">Вывод каждую секунду</a>
+        <p>Напишите функцию printNumbers(from, to), которая выводит число каждую секунду, начиная от from и заканчивая to.
+            Сделайте два варианта решения.
+            Используя setInterval.
+            Используя рекурсивный setTimeout.
+        </p>
+    </p>
+    <p id="output"></p>
+</body>
+</html>

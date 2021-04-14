@@ -1,4 +1,5 @@
 ﻿using Assistant;
+using Assistant.Core;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

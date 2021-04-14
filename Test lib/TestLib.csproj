@@ -34,10 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assistant, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assistant\bin\Debug\Assistant.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -67,8 +63,6 @@
     <Compile Include="Controllers\ServiceTest.cs" />
     <Compile Include="Controllers\UncnownTask.cs" />
     <Compile Include="Controllers\XmlTest.cs" />
-    <Compile Include="Core\ITestLib.cs" />
-    <Compile Include="Core\Tester.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -81,6 +75,10 @@
     <ProjectReference Include="..\AlgorithmAndDataStruct\AlgorithmAndDataStruct.csproj">
       <Project>{2B718E81-C69B-4BC1-9DBA-6EF84EE0BB5F}</Project>
       <Name>AlgorithmAndDataStruct</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assistant\Assistant.csproj">
+      <Project>{aee284f3-83e7-4da2-8c0d-a553a9285a95}</Project>
+      <Name>Assistant</Name>
     </ProjectReference>
     <ProjectReference Include="..\WebServices\InvalidPassports.csproj">
       <Project>{32bc31fc-6e8d-456f-820d-8d09aacb3473}</Project>

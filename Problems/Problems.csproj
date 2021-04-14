@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Problems</RootNamespace>
     <AssemblyName>Problems</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Strategy\HasRepeatChar.cs" />
+    <Compile Include="Strategy\IInterviewTask.cs" />
+    <Compile Include="Strategy\Interview.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="LitCodeProblems.cs" />
     <Compile Include="Program.cs" />
@@ -52,7 +56,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="JavaScript\RemoveDuplicates.html" />
+    <ProjectReference Include="..\Assistant\Assistant.csproj">
+      <Project>{aee284f3-83e7-4da2-8c0d-a553a9285a95}</Project>
+      <Name>Assistant</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

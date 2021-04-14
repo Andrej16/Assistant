@@ -1,4 +1,5 @@
 ﻿using InvalidPassports;
+using Assistant.Core;
 
 namespace TestLib.Controllers
 {

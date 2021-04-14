@@ -210,6 +210,13 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\De
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.exe
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.ResolveComReference.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.ServiceInstaller.resources
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.TestForm.resources
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.Properties.Resources.resources
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\Debug\UserInterface.exe.config
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\Debug\UserInterface.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\Debug\UserInterface.pdb
@@ -223,13 +230,6 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\De
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\Debug\Assistant.dll.config
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\Debug\UserControls.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\bin\Debug\UserControls.exe.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.ResolveComReference.cache
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.ServiceInstaller.resources
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.TestForm.resources
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.Properties.Resources.resources
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserInterface\obj\Debug\UserInterface.pdb

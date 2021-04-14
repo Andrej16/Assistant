@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assistant.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,14 +9,16 @@ namespace TestLib.Controllers
     {
         public void DoAction()
         {
-            string input = "bjkaadcda";
+            string input = "bjkaadcdadd";
+            string notRepeat = "dghjkly";
             //var repo = RepeatReport(input);
             //Sort(ref input);
             //var repo = GetRepeatCollect(input);
             //Console.WriteLine(input);
             //Print(repo);
-            string charCollection = CharCollection(input);
-            Console.WriteLine($"Char collection: {charCollection}");
+            //string charCollection = CharCollection(input);
+            HasCharRepeat(input);
+            //Console.WriteLine($"Char collection: {charCollection}");
         }
         #region Char collection 
         private string CharCollection(string input)
@@ -235,6 +238,39 @@ namespace TestLib.Controllers
                     }
                 }
             return new string(result);
+        }
+        /// <summary>
+        /// 1. Given a string, find out if there's repeat characters in it.
+        /// </summary>
+        /// <see>https://www.glassdoor.co.in/Interview/Coding-test-1-Given-a-string-find-out-if-there-s-repeat-characters-in-it-2-SQL-Given-a-Customer-table-and-a-Payment-QTN_2059702.htm</see>
+        public void HasCharRepeat(string str)
+        {
+            char maxChar = '\n';
+            int maxCount = 0;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                int count = 1;
+                char current = str[i];
+                for (int j = 0; j < str.Length; j++)
+                {
+                    if (i == j)
+                        continue;
+                    char subChar = str[j];
+                    if (current == subChar)
+                        count++;
+
+                }
+                if(count > maxCount)
+                {
+                    maxCount = count;       //dic[cur] = count;
+                    maxChar = current;
+                }
+            }
+            if(maxCount > 1)
+                Console.WriteLine($"Char - {maxChar}, repeated - {maxCount}");
+            else
+                Console.WriteLine("No repeated char");
         }
     }
 }

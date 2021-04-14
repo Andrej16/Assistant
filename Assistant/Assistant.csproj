@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Assistant</RootNamespace>
     <AssemblyName>Assistant</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <LangVersion>8.0</LangVersion>
     <SccProjectName>
@@ -67,6 +67,8 @@
     <Compile Include="BaseFactoryUniversal.cs" />
     <Compile Include="Converter.cs" />
     <Compile Include="CoreTool.cs" />
+    <Compile Include="Core\ITestLib.cs" />
+    <Compile Include="Core\Tester.cs" />
     <Compile Include="DictionaryStatic.cs" />
     <Compile Include="Imap.cs" />
     <Compile Include="InfoHelper.cs" />

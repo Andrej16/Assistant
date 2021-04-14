@@ -2,6 +2,7 @@
 using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Data;
+using Assistant.Core;
 
 namespace TestLib.Controllers
 {
