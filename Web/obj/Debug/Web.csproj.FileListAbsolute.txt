@@ -6,7 +6,7 @@ G:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.dl
 G:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\bin\Debug\Web.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\bin\Debug\Web.pdb
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.pdb
+d:\OneDrive\.NET Framework projects\Work programs\Assistant\Web\obj\Debug\Web.csproj.AssemblyReference.cache

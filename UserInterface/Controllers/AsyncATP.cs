@@ -16,7 +16,7 @@ namespace UserInterface
             Form = sender;
             DBHelper = new DBHelper();
         }
-        public void DoAction()
+        public void DoAction(object arg)
         {
             //CreateAsync();
             WinFormsParallel(); //Хрень 

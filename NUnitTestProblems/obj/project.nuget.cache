@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hyv9C/mOjjIxxqySnVWyVECX9BqNcErY1ioHOdvUYDbeFJPMY61A+FTkfog+DiPT4gz47aTmdGnOEXEI3IJalw==",
+  "dgSpecHash": "31PrB+Zo/qspFTWFyDm7ZXr41Ae3tz7TM9bwSoA5ukMXrthlSh8ppP2SUTUhI4oy5sInlOmdsqAO624ChqlCCA==",
   "success": true,
   "projectFilePath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj",
   "expectedPackageFiles": [
@@ -66,7 +66,10 @@
     "C:\\Users\\jhggjhgjh\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\jhggjhgjh\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jhggjhgjh\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\jhggjhgjh\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\jhggjhgjh\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\jhggjhgjh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jhggjhgjh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jhggjhgjh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,7 +10,7 @@
         "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Uwp\\Uwp.csproj",
         "projectName": "Uwp",
         "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Uwp\\Uwp.csproj",
-        "packagesPath": "C:\\Users\\jhggjhgjh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Andrii_Shylin1\\.nuget\\packages\\",
         "outputPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Uwp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhggjhgjh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrii_Shylin1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.fncinc.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

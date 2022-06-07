@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\TestLibTest\\TestLibTest.csproj": {}
+  },
+  "projects": {
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\AlgorithmAndDataStruct\\AlgorithmAndDataStruct.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\AlgorithmAndDataStruct\\AlgorithmAndDataStruct.csproj",
+        "projectName": "AlgorithmAndDataStruct",
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\AlgorithmAndDataStruct\\AlgorithmAndDataStruct.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj",
+        "projectName": "Assistant",
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Test lib\\TestLib.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Test lib\\TestLib.csproj",
+        "projectName": "TestLib",
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Test lib\\TestLib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\AlgorithmAndDataStruct\\AlgorithmAndDataStruct.csproj": {
+                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\AlgorithmAndDataStruct\\AlgorithmAndDataStruct.csproj"
+              },
+              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
+                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
+              },
+              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\WebServices\\InvalidPassports.csproj": {
+                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\WebServices\\InvalidPassports.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\TestLibTest\\TestLibTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\TestLibTest\\TestLibTest.csproj",
+        "projectName": "TestLibTest",
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\TestLibTest\\TestLibTest.csproj",
+        "packagesPath": "C:\\Users\\jhggjhgjh\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\TestLibTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jhggjhgjh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
+                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
+              },
+              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Test lib\\TestLib.csproj": {
+                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Test lib\\TestLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\WebServices\\InvalidPassports.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\WebServices\\InvalidPassports.csproj",
+        "projectName": "InvalidPassports",
+        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\WebServices\\InvalidPassports.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

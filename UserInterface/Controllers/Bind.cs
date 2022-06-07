@@ -15,7 +15,7 @@ namespace UserInterface.Controllers
             DBHelper = new DBHelper();
             bindingSource = new BindingSource();
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             data = DBHelper.GetZaporishyaStreets();
             bindingSource.DataSource = data;

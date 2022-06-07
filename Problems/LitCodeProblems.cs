@@ -523,5 +523,46 @@ namespace Problems
             } while (divBalance == 0);
             return zeroes;
         }
+        /// <summary>
+        /// 190. Reverse Bits
+        /// </summary>
+        /// <see cref="https://leetcode.com/problems/reverse-bits/"/>
+        public static int ReverseBits(int origin)
+        {
+            int mask = 0b_0000_0001;
+            int temp = 0;
+            int result = 0;
+
+            for (int i = 1; i <= 8; i++)
+            {
+                temp = origin & mask;
+                origin >>= 1;
+                result |= temp;
+                if (i == 8)
+                    continue;
+                result <<= 1;
+            }
+
+            return result;
+        }
+        /// <summary>
+        /// 566. Reshape the Matrix
+        /// </summary>
+        ///<see cref="https://leetcode.com/problems/reshape-the-matrix/"/>
+        public static int[] MatrixReshape(int[,] source)
+        {
+            int sourceCount = source.Length;
+
+            int[] destArray = new int[sourceCount];
+            int inx = 0;
+            for(int row = 0; row < source.GetLength(0); row++)
+            {
+                for(int coll = 0; coll < source.GetLength(1); coll++)
+                {
+                    destArray[inx++] = source[row, coll];
+                }
+            }
+            return destArray;
+        }
     }
 }

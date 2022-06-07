@@ -27,4 +27,4 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\A
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csprojAssemblyReference.cache
+d:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.AssemblyReference.cache

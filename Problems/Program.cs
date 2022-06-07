@@ -37,8 +37,28 @@ namespace Problems
             //IsPolindrome();
             //SingleNumber();
             //LongestCommonPrefix();
-            TrailingZeroes();
+            //TrailingZeroes();
+            //TestReverseBits();
+            MatrixReshape();
             Console.ReadKey();
+        }
+
+        private static void MatrixReshape()
+        {
+            int[,] sour = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+            var result = LitCodeProblems.MatrixReshape(sour);
+            foreach (int item in result)
+            {
+                Console.WriteLine($"{item}");
+            }
+        }
+
+        private static void TestReverseBits()
+        {
+            int source = 0b_1001_0110;
+            int result = LitCodeProblems.ReverseBits(source);
+            Console.WriteLine($"Source bits: {Convert.ToString(source, toBase: 2)}");
+            Console.WriteLine($"Reversed bits: {Convert.ToString(result, toBase: 2)}");
         }
 
         private static void TrailingZeroes()

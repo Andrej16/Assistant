@@ -68,7 +68,6 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\bin
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\bin\Debug\Newtonsoft.Json.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\bin\Debug\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\bin\Debug\Assistant.dll.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\Assistant.AssistanceService.resources
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.ProjectInstaller.resources
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.csproj.GenerateResource.cache
@@ -76,3 +75,4 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.csproj.AssemblyReference.cache

@@ -56,6 +56,7 @@
     <Compile Include="Controllers\AddressChoiceControl.cs" />
     <Compile Include="Controllers\AisUserRightsTest.cs" />
     <Compile Include="Controllers\AsyncATP.cs" />
+    <Compile Include="Controllers\AsyncAwait.cs" />
     <Compile Include="Controllers\Bind.cs" />
     <Compile Include="Controllers\MouseClicker.cs" />
     <Compile Include="Controllers\ParallelLibraryTPL.cs" />

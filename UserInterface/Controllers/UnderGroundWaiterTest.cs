@@ -11,7 +11,7 @@ namespace UserInterface.Controllers
         {
 
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             TestUnderGroundWaiter();
         }

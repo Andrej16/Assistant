@@ -16,7 +16,7 @@ namespace UserInterface.Controllers
             dBHelper = new DBHelper();
             events = new AutoResetEvent[] { new AutoResetEvent(false), new AutoResetEvent(false), new AutoResetEvent(false) };
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             ThreadPool.QueueUserWorkItem(Load1, events[0]);
             ThreadPool.QueueUserWorkItem(Load2, events[1]);

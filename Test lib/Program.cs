@@ -9,7 +9,7 @@ namespace TestLib
         public static Tester CurrentTester { get; set; }
         static void Main()
         {
-            CurrentTester = new Tester(new CharRepeat());
+            CurrentTester = new Tester(new CoreToolTest());
             CurrentTester.DoTest();
             Console.ReadKey();
         }

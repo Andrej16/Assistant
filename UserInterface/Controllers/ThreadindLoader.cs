@@ -13,7 +13,7 @@ namespace UserInterface
         {
 
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             Thread thread = new Thread(new ThreadStart(TestThreadingLoad));
             thread.Start();

@@ -53,6 +53,7 @@
     <Compile Include="Controllers\BaseFactoryTest.cs" />
     <Compile Include="Controllers\BinaryTreeTest.cs" />
     <Compile Include="Controllers\CharRepeat.cs" />
+    <Compile Include="Controllers\CoreToolTest.cs" />
     <Compile Include="Controllers\Fibbonachi.cs" />
     <Compile Include="Controllers\FuturesTest.cs" />
     <Compile Include="Controllers\InvalidPassportsProjectTest.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Controllers\OtherTest.cs" />
     <Compile Include="Controllers\ParseJson.cs" />
     <Compile Include="Controllers\ServiceTest.cs" />
+    <Compile Include="Controllers\StringHtmlHelperTest.cs" />
     <Compile Include="Controllers\UncnownTask.cs" />
     <Compile Include="Controllers\XmlTest.cs" />
     <Compile Include="Program.cs" />
@@ -86,6 +88,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\WorksheetTemplate.html" />
     <Content Include="Data\xmldata.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

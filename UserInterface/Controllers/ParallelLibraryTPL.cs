@@ -16,7 +16,7 @@ namespace UserInterface.Controllers
             DBHelper = new DBHelper();
 
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             //CreateTask();
             WaitTask();

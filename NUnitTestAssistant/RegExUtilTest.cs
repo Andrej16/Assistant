@@ -51,6 +51,17 @@ namespace NUnitTestAssistant
             Expectations.Expect(RegExUtil.IsValidEmail("js#internal@proseware.com"), Is.True, "Valid: js#internal@proseware.com");
             Expectations.Expect(RegExUtil.IsValidEmail("j.@server1.proseware.com"), Is.False, "Invalid: j.@server1.proseware.com");
         }
+        [Test]
+        public static void TransformOutbound_MustSeparateWithSlash()
+        {
+            //Arrange
+            var input = "ControllerBase";
 
+            //Act
+            var result = RegExUtil.TransformOutbound(input);
+
+            //Assert
+            Assert.AreEqual(result, "controller-base");
+        }
     }
 }

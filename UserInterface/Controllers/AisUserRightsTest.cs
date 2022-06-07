@@ -13,7 +13,7 @@ namespace UserInterface.Controllers
             _userRightsStore = new UserRightsStore();
             this.isDepth = isDepth;
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             DataTable expTable = PrepareTable(isDepth);
             ExcelReportMessage mess = new ExcelReportMessage(expTable);

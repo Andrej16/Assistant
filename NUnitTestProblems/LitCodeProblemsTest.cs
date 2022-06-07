@@ -26,6 +26,5 @@ namespace NUnitTestProblems
             Assert.IsTrue(LitCodeProblems.IsPalindrome(_isPolindrome));
             Assert.IsFalse(LitCodeProblems.IsPalindrome(_isNotPolindrome));
         }
-
     }
 }

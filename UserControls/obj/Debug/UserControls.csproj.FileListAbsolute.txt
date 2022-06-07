@@ -195,10 +195,10 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\bin\Deb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\bin\Debug\Newtonsoft.Json.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\bin\Debug\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\bin\Debug\Assistant.dll.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.Properties.Resources.resources
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.csproj.GenerateResource.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.csproj.AssemblyReference.cache

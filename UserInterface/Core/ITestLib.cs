@@ -2,6 +2,6 @@
 {
     public interface ITestLib
     {
-        void DoAction();
+        void DoAction(object arg);
     }
 }

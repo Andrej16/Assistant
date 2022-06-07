@@ -70,7 +70,6 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\b
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Oracle.ManagedDataAccess.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.dll.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.AssemblyInfoInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.AssemblyInfo.cs
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.CoreCompileInputs.cache
@@ -78,3 +77,5 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\o
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.genruntimeconfig.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.AssemblyReference.cache
+d:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.GeneratedMSBuildEditorConfig.editorconfig

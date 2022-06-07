@@ -13,7 +13,7 @@ namespace UserInterface.Controllers
             dBHelper = new DBHelper();
 
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
             TestunderGroundWorker();
         }

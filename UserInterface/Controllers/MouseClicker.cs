@@ -10,7 +10,7 @@ namespace UserInterface.Controllers
         Timer timerClicker; //таймер, просто для примера
         [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
         public static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint dwData, UIntPtr dwExtraInfo);
-        public void DoAction()
+        public void DoAction(object sender)
         {
             timerClicker = new Timer();
             timerClicker.Interval = 2000;

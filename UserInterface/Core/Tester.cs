@@ -7,9 +7,9 @@
         {
             tester = tl;
         }
-        public void DoTest()
+        public void DoTest(object sender)
         {
-            tester.DoAction();
+            tester.DoAction(sender);
         }
     }
 }

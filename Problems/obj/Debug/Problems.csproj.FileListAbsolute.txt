@@ -13,8 +13,8 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Debug\O
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Debug\Newtonsoft.Json.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Debug\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\bin\Debug\Assistant.dll.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csproj.CoreCompileInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csproj.AssemblyReference.cache

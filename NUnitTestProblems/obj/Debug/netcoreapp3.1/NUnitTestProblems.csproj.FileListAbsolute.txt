@@ -93,7 +93,6 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\bi
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\bin\Debug\netcoreapp3.1\Problems.exe.config
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\bin\Debug\netcoreapp3.1\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\bin\Debug\netcoreapp3.1\Assistant.dll.config
-D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.csprojAssemblyReference.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.AssemblyInfoInputs.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.AssemblyInfo.cs
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.csproj.CoreCompileInputs.cache
@@ -101,3 +100,5 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\ob
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.genruntimeconfig.cache
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.csproj.AssemblyReference.cache
+d:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestProblems\obj\Debug\netcoreapp3.1\NUnitTestProblems.GeneratedMSBuildEditorConfig.editorconfig

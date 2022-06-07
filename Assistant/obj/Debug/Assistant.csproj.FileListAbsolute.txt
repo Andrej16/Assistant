@@ -47,3 +47,4 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csproj.CopyComplete
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.pdb
+D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csproj.AssemblyReference.cache

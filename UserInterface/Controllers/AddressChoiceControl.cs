@@ -10,7 +10,7 @@ namespace UserInterface
         {
             MainForm = sender;
         }
-        public void DoAction()
+        public void DoAction(object sender)
         {
 
         }

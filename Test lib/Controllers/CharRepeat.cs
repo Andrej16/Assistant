@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace TestLib.Controllers
 {
-    public class CharRepeat : ITestLib
+    public class CharRepeat : ITestLib, IStub
     {
         public void DoAction()
         {
@@ -20,6 +20,12 @@ namespace TestLib.Controllers
             HasCharRepeat(input);
             //Console.WriteLine($"Char collection: {charCollection}");
         }
+
+        public object DoSomeAction(object arg)
+        {
+            return GetRepeatCollect(arg as string);
+        }
+
         #region Char collection 
         private string CharCollection(string input)
         {
@@ -272,5 +278,6 @@ namespace TestLib.Controllers
             else
                 Console.WriteLine("No repeated char");
         }
+
     }
 }
