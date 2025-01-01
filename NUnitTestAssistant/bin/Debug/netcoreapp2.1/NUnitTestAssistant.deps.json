@@ -992,7 +992,10 @@
       },
       "Assistant/1.0.0": {
         "runtime": {
-          "Assistant.dll": {}
+          "Assistant.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Oracle.ManagedDataAccess/4.122.1.0": {

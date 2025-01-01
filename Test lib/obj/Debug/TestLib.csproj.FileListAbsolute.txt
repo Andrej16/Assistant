@@ -32,3 +32,19 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\T
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Test lib\obj\Debug\TestLib.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\TestLib.exe.config
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\TestLib.exe
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\TestLib.pdb
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.dll
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\Assistant.dll
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\WebInteraction.dll
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\AlgorithmAndDataStruct.pdb
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\Assistant.pdb
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\Test lib\bin\Debug\WebInteraction.pdb
+D:\OneDrive\Projects\Assistant\Test lib\obj\Debug\TestLib.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\Test lib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\Test lib\obj\Debug\TestLib.csproj.Up2Date
+D:\OneDrive\Projects\Assistant\Test lib\obj\Debug\TestLib.exe
+D:\OneDrive\Projects\Assistant\Test lib\obj\Debug\TestLib.pdb

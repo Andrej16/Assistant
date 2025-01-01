@@ -1,14 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj": {}
+    "D:\\OneDrive\\Projects\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
+    "D:\\OneDrive\\Projects\\Assistant\\Assistant\\Assistant.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Projects\\Assistant\\Assistant\\Assistant.csproj",
         "projectName": "Assistant",
-        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj",
+        "projectPath": "D:\\OneDrive\\Projects\\Assistant\\Assistant\\Assistant.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,32 +20,35 @@
         "net48": {}
       }
     },
-    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj": {
+    "D:\\OneDrive\\Projects\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Projects\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj",
         "projectName": "NUnitTestProblems",
-        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj",
-        "packagesPath": "C:\\Users\\jhggjhgjh\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\NUnitTestProblems\\obj\\",
+        "projectPath": "D:\\OneDrive\\Projects\\Assistant\\NUnitTestProblems\\NUnitTestProblems.csproj",
+        "packagesPath": "C:\\Users\\Andrii_Shylin1\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Projects\\Assistant\\NUnitTestProblems\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jhggjhgjh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrii_Shylin1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Problems\\Problems.csproj": {
-                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Problems\\Problems.csproj"
+              "D:\\OneDrive\\Projects\\Assistant\\Problems\\Problems.csproj": {
+                "projectPath": "D:\\OneDrive\\Projects\\Assistant\\Problems\\Problems.csproj"
               }
             }
           }
@@ -53,7 +57,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -78,43 +88,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Problems\\Problems.csproj": {
+    "D:\\OneDrive\\Projects\\Assistant\\Problems\\Problems.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Problems\\Problems.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Projects\\Assistant\\Problems\\Problems.csproj",
         "projectName": "Problems",
-        "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Problems\\Problems.csproj",
+        "projectPath": "D:\\OneDrive\\Projects\\Assistant\\Problems\\Problems.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj": {
-                "projectPath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Assistant\\Assistant.csproj"
+              "D:\\OneDrive\\Projects\\Assistant\\Assistant\\Assistant.csproj": {
+                "projectPath": "D:\\OneDrive\\Projects\\Assistant\\Assistant\\Assistant.csproj"
               }
             }
           }

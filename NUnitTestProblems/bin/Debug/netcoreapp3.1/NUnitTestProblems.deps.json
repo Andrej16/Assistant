@@ -868,7 +868,10 @@
       },
       "Assistant/1.0.0": {
         "runtime": {
-          "Assistant.dll": {}
+          "Assistant.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Problems/1.0.0": {
@@ -876,7 +879,10 @@
           "Assistant": "1.0.0"
         },
         "runtime": {
-          "Problems.exe": {}
+          "Problems.exe": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Oracle.ManagedDataAccess/4.122.1.0": {

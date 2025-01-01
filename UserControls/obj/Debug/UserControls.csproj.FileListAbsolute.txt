@@ -202,3 +202,18 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Deb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\UserControls\obj\Debug\UserControls.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\UserControls.exe.config
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\UserControls.exe
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\UserControls.pdb
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\Assistant.dll
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\Assistant.pdb
+D:\OneDrive\Projects\Assistant\UserControls\bin\Debug\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserControls.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserControls.Properties.Resources.resources
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserControls.csproj.GenerateResource.cache
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserCont.3CCE6689.Up2Date
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserControls.exe
+D:\OneDrive\Projects\Assistant\UserControls\obj\Debug\UserControls.pdb

@@ -18,3 +18,16 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\P
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Problems\obj\Debug\Problems.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Problems.exe.config
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Problems.exe
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Problems.pdb
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Assistant.dll
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Assistant.pdb
+D:\OneDrive\Projects\Assistant\Problems\bin\Debug\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\Problems\obj\Debug\Problems.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\Problems\obj\Debug\Problems.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\Problems\obj\Debug\Problems.csproj.Up2Date
+D:\OneDrive\Projects\Assistant\Problems\obj\Debug\Problems.exe
+D:\OneDrive\Projects\Assistant\Problems\obj\Debug\Problems.pdb

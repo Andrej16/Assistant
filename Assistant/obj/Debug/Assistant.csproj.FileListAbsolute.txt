@@ -48,3 +48,13 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\Assistant\obj\Debug\Assistant.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\Assistant\bin\Debug\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\Assistant\bin\Debug\Assistant.dll
+D:\OneDrive\Projects\Assistant\Assistant\bin\Debug\Assistant.pdb
+D:\OneDrive\Projects\Assistant\Assistant\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\Assistant\obj\Debug\Assistant.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\Assistant\obj\Debug\Assistant.csproj.ResolveComReference.cache
+D:\OneDrive\Projects\Assistant\Assistant\obj\Debug\Assistant.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\Assistant\obj\Debug\Assistant.csproj.Up2Date
+D:\OneDrive\Projects\Assistant\Assistant\obj\Debug\Assistant.dll
+D:\OneDrive\Projects\Assistant\Assistant\obj\Debug\Assistant.pdb

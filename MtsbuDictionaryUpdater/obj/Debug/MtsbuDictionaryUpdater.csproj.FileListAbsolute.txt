@@ -18,3 +18,12 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdat
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.pdb
 d:\OneDrive\.NET Framework projects\Work programs\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\bin\Debug\MtsbuDictionaryUpdater.exe.config
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\bin\Debug\MtsbuDictionaryUpdater.exe
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\bin\Debug\MtsbuDictionaryUpdater.pdb
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDic.E5E2A122.Up2Date
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.exe
+D:\OneDrive\Projects\Assistant\MtsbuDictionaryUpdater\obj\Debug\MtsbuDictionaryUpdater.pdb

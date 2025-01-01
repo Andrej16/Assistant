@@ -28,3 +28,12 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\A
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.pdb
 d:\OneDrive\.NET Framework projects\Work programs\Assistant\AisTools\obj\Debug\AisTools.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\AisTools\bin\Debug\AisTools.dll
+D:\OneDrive\Projects\Assistant\AisTools\bin\Debug\AisTools.pdb
+D:\OneDrive\Projects\Assistant\AisTools\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\AisTools\obj\Debug\AisTools.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\AisTools\obj\Debug\AisTools.csproj.ResolveComReference.cache
+D:\OneDrive\Projects\Assistant\AisTools\obj\Debug\AisTools.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\AisTools\obj\Debug\AisTools.csproj.Up2Date
+D:\OneDrive\Projects\Assistant\AisTools\obj\Debug\AisTools.dll
+D:\OneDrive\Projects\Assistant\AisTools\obj\Debug\AisTools.pdb

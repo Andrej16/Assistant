@@ -37,3 +37,13 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debu
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\WebInteraction.dll
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\WebInteraction.pdb
 d:\OneDrive\.NET Framework projects\Work programs\Assistant\WebServices\obj\Debug\InvalidPassports.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\WebServices\bin\Debug\WebInteraction.dll
+D:\OneDrive\Projects\Assistant\WebServices\bin\Debug\WebInteraction.pdb
+D:\OneDrive\Projects\Assistant\WebServices\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\WebServices\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\WebServices\bin\Debug\Newtonsoft.Json.xml
+D:\OneDrive\Projects\Assistant\WebServices\obj\Debug\InvalidPassports.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\WebServices\obj\Debug\InvalidPassports.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\WebServices\obj\Debug\InvalidP.B8A14023.Up2Date
+D:\OneDrive\Projects\Assistant\WebServices\obj\Debug\WebInteraction.dll
+D:\OneDrive\Projects\Assistant\WebServices\obj\Debug\WebInteraction.pdb

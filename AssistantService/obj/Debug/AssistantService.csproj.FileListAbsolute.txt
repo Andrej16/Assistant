@@ -76,3 +76,19 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.exe
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\AssistantService\obj\Debug\AssistantService.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\AssistantService.exe.config
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\AssistantService.exe
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\AssistantService.pdb
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\Assistant.dll
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\Assistant.pdb
+D:\OneDrive\Projects\Assistant\AssistantService\bin\Debug\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\AssistantService.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\Assistant.AssistanceService.resources
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\AssistantService.ProjectInstaller.resources
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\AssistantService.csproj.GenerateResource.cache
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\AssistantService.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\Assistan.ACF57D4D.Up2Date
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\AssistantService.exe
+D:\OneDrive\Projects\Assistant\AssistantService\obj\Debug\AssistantService.pdb

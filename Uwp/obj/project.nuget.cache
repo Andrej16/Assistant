@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SPOCnJYYMzzUPyxEziC+p87/VRwq7KsS+PtWqDleZp/4T/FyOzvKtdZ+ooHp2BeNJ06TuU+UrOwCK+AJevDSkg==",
+  "dgSpecHash": "nKqy5tfI37M=",
   "success": true,
-  "projectFilePath": "D:\\OneDrive\\.NET Framework projects\\Work programs\\Assistant\\Uwp\\Uwp.csproj",
+  "projectFilePath": "D:\\OneDrive\\Projects\\Assistant\\Uwp\\Uwp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrii_Shylin1\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Andrii_Shylin1\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

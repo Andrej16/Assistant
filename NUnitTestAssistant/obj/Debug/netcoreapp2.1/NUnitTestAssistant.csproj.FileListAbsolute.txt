@@ -79,3 +79,26 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\o
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.genruntimeconfig.cache
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.AssemblyReference.cache
 d:\OneDrive\.NET Framework projects\Work programs\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnitTestAssistant.deps.json
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnitTestAssistant.runtimeconfig.json
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnitTestAssistant.runtimeconfig.dev.json
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnitTestAssistant.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\NUnitTestAssistant.pdb
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.pdb
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\bin\Debug\netcoreapp2.1\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.AssemblyInfoInputs.cache
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.AssemblyInfo.cs
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.sourcelink.json
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTes.9D3AC827.Up2Date
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.dll
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.pdb
+D:\OneDrive\Projects\Assistant\NUnitTestAssistant\obj\Debug\netcoreapp2.1\NUnitTestAssistant.genruntimeconfig.cache

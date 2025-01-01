@@ -28,3 +28,37 @@ D:\OneDrive\.NET Framework projects\Work programs\Assistant\TestLibTest\bin\Debu
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\TestLibTest\bin\Debug\net48\WebInteraction.pdb
 D:\OneDrive\.NET Framework projects\Work programs\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.csproj.AssemblyReference.cache
 d:\OneDrive\.NET Framework projects\Work programs\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.runner.visualstudio.testadapter.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.runner.reporters.net452.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.runner.utility.net452.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.abstractions.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\TestLibTest.dll.config
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\TestLibTest.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\TestLibTest.pdb
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.assert.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.core.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\xunit.execution.desktop.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\AlgorithmAndDataStruct.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\Assistant.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\TestLib.exe
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\WebInteraction.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\Oracle.ManagedDataAccess.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\Newtonsoft.Json.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\Assistant.pdb
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\Assistant.dll.config
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\TestLib.pdb
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\TestLib.exe.config
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\AlgorithmAndDataStruct.pdb
+D:\OneDrive\Projects\Assistant\TestLibTest\bin\Debug\net48\WebInteraction.pdb
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.csproj.AssemblyReference.cache
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.csproj.SuggestedBindingRedirects.cache
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.dll.config
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.AssemblyInfoInputs.cache
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.AssemblyInfo.cs
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.sourcelink.json
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibT.2F2EF47B.Up2Date
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.dll
+D:\OneDrive\Projects\Assistant\TestLibTest\obj\Debug\net48\TestLibTest.pdb
